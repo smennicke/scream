@@ -1,0 +1,782 @@
+SCREAM Status: forwards strategy chosen
+SCREAM Status: last strategy chosen
+SCREAM Status: Created feature 'editor_config'
+SCREAM Status: Created feature 'backup'
+SCREAM Status: Created feature 'autosave'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature 'minutes'
+SCREAM Status: went up to autosave
+SCREAM Status: went up to backup
+SCREAM Status: Created feature 'backup_onchange'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature 'backup_extension'
+SCREAM Status: Handling cardinalities as [1,1]
+SCREAM Status: Group added
+SCREAM Status: Created feature 'file_bak'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to file_bak
+SCREAM Status: with parent backup_extension
+SCREAM Status: Created feature 'file_bak_ext'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to file_bak_ext
+SCREAM Status: with parent backup_extension
+SCREAM Status: Created feature 'file_ext_bak'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to file_ext_bak
+SCREAM Status: with parent backup_extension
+SCREAM Status: went up to backup_extension
+SCREAM Status: went up to backup
+SCREAM Status: went up to editor_config
+SCREAM Status: Created feature 'document_class'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature 'associated_file_ext'
+SCREAM Status: Created feature 'ext'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature 'commands'
+SCREAM Status: Created feature 'remove_blank_lines'
+SCREAM Status: optional feature added
+SCREAM Status: went up to commands
+SCREAM Status: Created feature 'spell_check'
+SCREAM Status: optional feature added
+SCREAM Status: went up to commands
+SCREAM Status: Created feature 'dos_unix_conversion'
+SCREAM Status: optional feature added
+SCREAM Status: went up to commands
+SCREAM Status: went up to document_class
+SCREAM Status: Created feature 'syntax_highlighting'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature 'syntax_definition_file'
+SCREAM Status: Parsed and built Feature Model with 18 (18) features
+SCREAM Status: Root feature is mandatory
+SCREAM Status: Using standard product sequence
+SCREAM Status: Product sequence is consistent with FM
+SCREAM Status: Try { editor_config }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }
+SCREAM Status: Try { editor_config backup }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { editor_config }{ backup }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition -backup is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup }
+SCREAM Status: Try { editor_config }{ backup autosave }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }
+SCREAM Status: Try { editor_config }{ backup autosave minutes }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes }
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes backup_onchange }
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension file_bak }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition end_3 is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition +file_bak is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -file_bak is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak file_bak_ext }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +file_bak is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +file_bak is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -file_bak is live
+SCREAM Status: Transition -file_bak_ext is live
+SCREAM Status: Transition +file_bak_ext is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext }
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +file_bak is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -file_bak is live
+SCREAM Status: Transition +file_bak_ext is live
+SCREAM Status: Transition -file_bak_ext is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +file_ext_bak is live
+SCREAM Status: Transition -file_ext_bak is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak }
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +file_bak is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -file_bak is live
+SCREAM Status: Transition +file_bak_ext is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -file_bak_ext is live
+SCREAM Status: Transition +file_ext_bak is live
+SCREAM Status: Transition -file_ext_bak is live
+SCREAM Status: Transition +document_class is live
+SCREAM Status: Transition -document_class is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class associated_file_ext }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition +file_bak is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -file_bak is live
+SCREAM Status: Transition +file_bak_ext is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +file_bak is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -file_bak is live
+SCREAM Status: Transition +file_bak_ext is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -file_bak_ext is live
+SCREAM Status: Transition +file_ext_bak is live
+SCREAM Status: Transition -file_ext_bak is live
+SCREAM Status: Transition +document_class is live
+SCREAM Status: Transition -document_class is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +associated_file_ext is live
+SCREAM Status: Transition -associated_file_ext is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext }
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +file_bak is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -file_bak is live
+SCREAM Status: Transition +file_bak_ext is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -file_bak_ext is live
+SCREAM Status: Transition +file_ext_bak is live
+SCREAM Status: Transition -file_ext_bak is live
+SCREAM Status: Transition +document_class is live
+SCREAM Status: Transition -document_class is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +associated_file_ext is live
+SCREAM Status: Transition -associated_file_ext is live
+SCREAM Status: Transition +ext is live
+SCREAM Status: Transition -ext is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext }
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext commands }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +file_bak is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -file_bak is live
+SCREAM Status: Transition +file_bak_ext is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -file_bak_ext is live
+SCREAM Status: Transition +file_ext_bak is live
+SCREAM Status: Transition -file_ext_bak is live
+SCREAM Status: Transition +document_class is live
+SCREAM Status: Transition -document_class is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +associated_file_ext is live
+SCREAM Status: Transition -associated_file_ext is live
+SCREAM Status: Transition +ext is live
+SCREAM Status: Transition -ext is live
+SCREAM Status: Transition +commands is live
+SCREAM Status: Transition -commands is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext commands }
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext commands remove_blank_lines }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +file_bak is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -file_bak is live
+SCREAM Status: Transition +file_bak_ext is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -file_bak_ext is live
+SCREAM Status: Transition +file_ext_bak is live
+SCREAM Status: Transition -file_ext_bak is live
+SCREAM Status: Transition +document_class is live
+SCREAM Status: Transition -document_class is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +associated_file_ext is live
+SCREAM Status: Transition -associated_file_ext is live
+SCREAM Status: Transition +ext is live
+SCREAM Status: Transition -ext is live
+SCREAM Status: Transition +commands is live
+SCREAM Status: Transition -commands is live
+SCREAM Status: Transition +remove_blank_lines is live
+SCREAM Status: Transition -remove_blank_lines is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext commands remove_blank_lines }
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext commands remove_blank_lines spell_check }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +file_bak is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -file_bak is live
+SCREAM Status: Transition +file_bak_ext is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -file_bak_ext is live
+SCREAM Status: Transition +file_ext_bak is live
+SCREAM Status: Transition -file_ext_bak is live
+SCREAM Status: Transition +document_class is live
+SCREAM Status: Transition -document_class is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +associated_file_ext is live
+SCREAM Status: Transition -associated_file_ext is live
+SCREAM Status: Transition +ext is live
+SCREAM Status: Transition -ext is live
+SCREAM Status: Transition +commands is live
+SCREAM Status: Transition -commands is live
+SCREAM Status: Transition +remove_blank_lines is live
+SCREAM Status: Transition -remove_blank_lines is live
+SCREAM Status: Transition +spell_check is live
+SCREAM Status: Transition -spell_check is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext commands remove_blank_lines spell_check }
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext commands remove_blank_lines spell_check dos_unix_conversion }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +file_bak is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -file_bak is live
+SCREAM Status: Transition +file_bak_ext is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -file_bak_ext is live
+SCREAM Status: Transition +file_ext_bak is live
+SCREAM Status: Transition -file_ext_bak is live
+SCREAM Status: Transition +document_class is live
+SCREAM Status: Transition -document_class is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +associated_file_ext is live
+SCREAM Status: Transition -associated_file_ext is live
+SCREAM Status: Transition +ext is live
+SCREAM Status: Transition -ext is live
+SCREAM Status: Transition +commands is live
+SCREAM Status: Transition -commands is live
+SCREAM Status: Transition +remove_blank_lines is live
+SCREAM Status: Transition -remove_blank_lines is live
+SCREAM Status: Transition +spell_check is live
+SCREAM Status: Transition -spell_check is live
+SCREAM Status: Transition +dos_unix_conversion is live
+SCREAM Status: Transition -dos_unix_conversion is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext commands remove_blank_lines spell_check dos_unix_conversion }
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext commands remove_blank_lines spell_check dos_unix_conversion syntax_highlighting }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +file_bak is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -file_bak is live
+SCREAM Status: Transition +file_bak_ext is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -file_bak_ext is live
+SCREAM Status: Transition +file_ext_bak is live
+SCREAM Status: Transition -file_ext_bak is live
+SCREAM Status: Transition +document_class is live
+SCREAM Status: Transition -document_class is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +associated_file_ext is live
+SCREAM Status: Transition -associated_file_ext is live
+SCREAM Status: Transition +ext is live
+SCREAM Status: Transition -ext is live
+SCREAM Status: Transition +commands is live
+SCREAM Status: Transition -commands is live
+SCREAM Status: Transition +remove_blank_lines is live
+SCREAM Status: Transition -remove_blank_lines is live
+SCREAM Status: Transition +spell_check is live
+SCREAM Status: Transition -spell_check is live
+SCREAM Status: Transition +dos_unix_conversion is live
+SCREAM Status: Transition -dos_unix_conversion is live
+SCREAM Status: Transition +syntax_highlighting is live
+SCREAM Status: Transition -syntax_highlighting is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext commands remove_blank_lines spell_check dos_unix_conversion syntax_highlighting }
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext commands remove_blank_lines spell_check dos_unix_conversion syntax_highlighting syntax_definition_file }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition +file_bak is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -file_bak is live
+SCREAM Status: Transition +file_bak_ext is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -file_bak_ext is live
+SCREAM Status: Transition +file_ext_bak is live
+SCREAM Status: Transition -file_ext_bak is live
+SCREAM Status: Transition +document_class is live
+SCREAM Status: Transition -document_class is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext commands remove_blank_lines spell_check dos_unix_conversion syntax_highlighting }{ syntax_definition_file }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -editor_config is live
+SCREAM Status: Transition +minutes is live
+SCREAM Status: Transition +autosave is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -backup is live
+SCREAM Status: Transition +editor_config is live
+SCREAM Status: Transition +backup is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -autosave is live
+SCREAM Status: Transition -minutes is live
+SCREAM Status: Transition +backup_onchange is live
+SCREAM Status: Transition -backup_onchange is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +backup_extension is live
+SCREAM Status: Transition -backup_extension is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +file_bak is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -file_bak is live
+SCREAM Status: Transition +file_bak_ext is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -file_bak_ext is live
+SCREAM Status: Transition +file_ext_bak is live
+SCREAM Status: Transition -file_ext_bak is live
+SCREAM Status: Transition +document_class is live
+SCREAM Status: Transition -document_class is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +associated_file_ext is live
+SCREAM Status: Transition -associated_file_ext is live
+SCREAM Status: Transition +ext is live
+SCREAM Status: Transition -ext is live
+SCREAM Status: Transition +commands is live
+SCREAM Status: Transition -commands is live
+SCREAM Status: Transition +remove_blank_lines is live
+SCREAM Status: Transition -remove_blank_lines is live
+SCREAM Status: Transition +spell_check is live
+SCREAM Status: Transition -spell_check is live
+SCREAM Status: Transition +dos_unix_conversion is live
+SCREAM Status: Transition -dos_unix_conversion is live
+SCREAM Status: Transition +syntax_highlighting is live
+SCREAM Status: Transition -syntax_highlighting is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +syntax_definition_file is live
+SCREAM Status: Transition -syntax_definition_file is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext commands remove_blank_lines spell_check dos_unix_conversion syntax_highlighting }{ syntax_definition_file }
+SCREAM Status: Parsed and built Feature Model with 18 (18) featuresNew Size: 18

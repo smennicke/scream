@@ -1,0 +1,16 @@
+<feature_tree>
+:r Car
+	:o Automated Driving Controller (automated_driving_controller)
+		:m Collision Avoidance Braking (collision_avoidance_braking)
+			:g [1,1]
+				: Standard Avoidance (standard_avoidance)
+				: Enhanced Avoidance (enhanced_avoidance)
+		:o Parallel Parking (parallel_parking)
+	:m Sensors
+		:o Lateral Range Finder (lateral_range_finder)
+		:o Forward Range Finder (forward_range_finder)
+</feature_tree>
+<constraints>
+c1: ~enhanced_avoidance or forward_range_finder
+c2: ~parallel_parking or lateral_range_finder
+</constraints>

@@ -1,0 +1,1938 @@
+SCREAM Status: forwards strategy chosen
+SCREAM Status: last strategy chosen
+SCREAM Status: Using standard feature sequence
+SCREAM Status: Created feature '_r'
+SCREAM Status: Created feature '_r_1'
+SCREAM Status: Created feature '_r_1_3'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_1_3_5'
+SCREAM Status: optional feature added
+SCREAM Status: went up to _r_1_3
+SCREAM Status: went up to _r_1
+SCREAM Status: Created feature '_r_1_4'
+SCREAM Status: optional feature added
+SCREAM Status: went up to _r_1
+SCREAM Status: Created feature '_r_1_18'
+SCREAM Status: optional feature added
+SCREAM Status: went up to _r_1
+SCREAM Status: Created feature '_r_1_19'
+SCREAM Status: optional feature added
+SCREAM Status: went up to _r_1
+SCREAM Status: Created feature '_r_1_20'
+SCREAM Status: optional feature added
+SCREAM Status: Handling cardinalities as [1,*]
+SCREAM Status: Group added
+SCREAM Status: Created feature '_r_1_20_21_22'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_1_20_21_22
+SCREAM Status: with parent _r_1_20
+SCREAM Status: Created feature '_r_1_20_21_23'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_1_20_21_23
+SCREAM Status: with parent _r_1_20
+SCREAM Status: Created feature '_r_1_26'
+SCREAM Status: Created feature '_r_1_26_27'
+SCREAM Status: Created feature '_r_1_26_27_29'
+SCREAM Status: Handling cardinalities as [1,*]
+SCREAM Status: Group added
+SCREAM Status: Created feature '_r_1_26_27_29_30_31'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_1_26_27_29_30_31
+SCREAM Status: with parent _r_1_26_27_29
+SCREAM Status: Created feature '_r_1_26_27_29_30_32'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_1_26_27_29_30_32
+SCREAM Status: with parent _r_1_26_27_29
+SCREAM Status: Created feature '_r_1_26_27_33'
+SCREAM Status: Created feature '_r_1_26_27_33_34'
+SCREAM Status: went up to _r_1_26_27_33
+SCREAM Status: went up to _r_1_26_27
+SCREAM Status: went up to _r_1_26
+SCREAM Status: Created feature '_r_1_26_28'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_1_26_28_29'
+SCREAM Status: went up to _r_1_26_28
+SCREAM Status: Created feature '_r_1_26_28_30'
+SCREAM Status: optional feature added
+SCREAM Status: went up to _r_1_26_28
+SCREAM Status: went up to _r_1_26
+SCREAM Status: went up to _r_1
+SCREAM Status: Created feature '_r_1_84'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_1_84_85'
+SCREAM Status: optional feature added
+SCREAM Status: went up to _r_1_84
+SCREAM Status: went up to _r_1
+SCREAM Status: went up to _r
+SCREAM Status: Created feature '_r_7'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_7_78'
+SCREAM Status: went up to _r_7
+SCREAM Status: Created feature '_r_7_79'
+SCREAM Status: optional feature added
+SCREAM Status: went up to _r_7
+SCREAM Status: Created feature '_r_7_80'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_7_88'
+SCREAM Status: went up to _r_7
+SCREAM Status: Created feature '_r_7_89'
+SCREAM Status: optional feature added
+SCREAM Status: went up to _r_7
+SCREAM Status: Created feature '_r_7_90'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_13'
+SCREAM Status: Created feature '_r_13_14'
+SCREAM Status: Created feature '_r_13_14_15'
+SCREAM Status: went up to _r_13_14
+SCREAM Status: Created feature '_r_13_14_17'
+SCREAM Status: optional feature added
+SCREAM Status: went up to _r_13_14
+SCREAM Status: went up to _r_13
+SCREAM Status: went up to _r
+SCREAM Status: Created feature '_r_31'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_31_36'
+SCREAM Status: Created feature '_r_31_37'
+SCREAM Status: Handling cardinalities as [1,*]
+SCREAM Status: Group added
+SCREAM Status: Created feature '_r_31_37_74_75'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_31_37_74_75
+SCREAM Status: with parent _r_31_37
+SCREAM Status: Created feature '_r_31_37_74_76'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_31_37_74_76
+SCREAM Status: with parent _r_31_37
+SCREAM Status: Created feature '_r_31_37_74_77'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_31_37_74_77
+SCREAM Status: with parent _r_31_37
+SCREAM Status: Created feature '_r_31_41'
+SCREAM Status: Handling cardinalities as [1,*]
+SCREAM Status: Group added
+SCREAM Status: Created feature '_r_31_41_71_72'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_31_41_71_72
+SCREAM Status: with parent _r_31_41
+SCREAM Status: Created feature '_r_31_41_71_73'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_31_41_71_73
+SCREAM Status: with parent _r_31_41
+SCREAM Status: Created feature '_r_31_44'
+SCREAM Status: Created feature '_r_31_44_45'
+SCREAM Status: went up to _r_31_44
+SCREAM Status: Created feature '_r_31_44_46'
+SCREAM Status: optional feature added
+SCREAM Status: went up to _r_31_44
+SCREAM Status: Created feature '_r_31_44_47'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_31_44_48'
+SCREAM Status: Created feature '_r_31_44_64'
+SCREAM Status: went up to _r_31_44
+SCREAM Status: went up to _r_31
+SCREAM Status: went up to _r
+SCREAM Status: Created feature '_r_32'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_32_49'
+SCREAM Status: went up to _r_32
+SCREAM Status: Created feature '_r_32_50'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_32_51'
+SCREAM Status: Handling cardinalities as [1,*]
+SCREAM Status: Group added
+SCREAM Status: Created feature '_r_32_51_52_53'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_32_51_52_53
+SCREAM Status: with parent _r_32_51
+SCREAM Status: Created feature '_r_32_51_52_54'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_32_51_52_54
+SCREAM Status: with parent _r_32_51
+SCREAM Status: Created feature '_r_32_51_52_55'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_32_51_52_55
+SCREAM Status: with parent _r_32_51
+SCREAM Status: Created feature '_r_32_51_52_56'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_32_51_52_56
+SCREAM Status: with parent _r_32_51
+SCREAM Status: Created feature '_r_32_51_52_57'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_32_51_52_57
+SCREAM Status: with parent _r_32_51
+SCREAM Status: Created feature '_r_32_65'
+SCREAM Status: Created feature '_r_32_65_66'
+SCREAM Status: Created feature '_r_32_65_100'
+SCREAM Status: went up to _r_32_65
+SCREAM Status: went up to _r_32
+SCREAM Status: went up to _r
+SCREAM Status: Created feature '_r_33'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_33_58'
+SCREAM Status: went up to _r_33
+SCREAM Status: Created feature '_r_33_59'
+SCREAM Status: optional feature added
+SCREAM Status: went up to _r_33
+SCREAM Status: Created feature '_r_33_60'
+SCREAM Status: optional feature added
+SCREAM Status: went up to _r_33
+SCREAM Status: Created feature '_r_33_61'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_33_96'
+SCREAM Status: Created feature '_r_33_96_98'
+SCREAM Status: went up to _r_33_96
+SCREAM Status: Created feature '_r_33_96_99'
+SCREAM Status: optional feature added
+SCREAM Status: went up to _r_33_96
+SCREAM Status: went up to _r_33
+SCREAM Status: went up to _r
+SCREAM Status: Created feature '_r_34'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_34_62'
+SCREAM Status: went up to _r_34
+SCREAM Status: Created feature '_r_34_63'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_34_91'
+SCREAM Status: Created feature '_r_34_91_92'
+SCREAM Status: Handling cardinalities as [1,*]
+SCREAM Status: Group added
+SCREAM Status: Created feature '_r_34_91_92_93_94'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_34_91_92_93_94
+SCREAM Status: with parent _r_34_91_92
+SCREAM Status: Created feature '_r_34_91_92_93_95'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_34_91_92_93_95
+SCREAM Status: with parent _r_34_91_92
+SCREAM Status: went up to _r_34_91_92
+SCREAM Status: went up to _r_34_91
+SCREAM Status: went up to _r_34
+SCREAM Status: went up to _r
+SCREAM Status: Created feature '_r_35'
+SCREAM Status: optional feature added
+SCREAM Status: Created feature '_r_35_62'
+SCREAM Status: Created feature '_r_35_63'
+SCREAM Status: Handling cardinalities as [1,*]
+SCREAM Status: Group added
+SCREAM Status: Created feature '_r_35_67_68'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_35_67_68
+SCREAM Status: with parent _r_35
+SCREAM Status: Created feature '_r_35_67_69'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_35_67_69
+SCREAM Status: with parent _r_35
+SCREAM Status: Created feature '_r_35_67_70'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to _r_35_67_70
+SCREAM Status: with parent _r_35
+SCREAM Status: Parsed and built Feature Model with 81 (81) features
+SCREAM Status: Root feature is mandatory
+SCREAM Status: Feature sequence is consistent with FM
+SCREAM Status: Delete root feature's deselection operation
+SCREAM Status: Finished deleting root feature's deselection operation
+SCREAM Status: Progress: 1 / 81
+SCREAM Status: Try { _r }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }
+SCREAM Status: Progress: 2 / 81
+SCREAM Status: Try { _r _r_1 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { _r }{ _r_1 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 }
+SCREAM Status: Progress: 3 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 }
+SCREAM Status: Progress: 4 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 }
+SCREAM Status: Progress: 5 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 }
+SCREAM Status: Progress: 6 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 }
+SCREAM Status: Progress: 7 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 }
+SCREAM Status: Progress: 8 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }
+SCREAM Status: Progress: 9 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 _r_1_20_21_22 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 }
+SCREAM Status: Progress: 10 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 }
+SCREAM Status: Progress: 11 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }
+SCREAM Status: Progress: 12 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 _r_1_26_27 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition end_3 is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }
+SCREAM Status: Progress: 13 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 _r_1_26_27_29 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }
+SCREAM Status: Progress: 14 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 _r_1_26_27_29_30_31 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 }
+SCREAM Status: Progress: 15 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 }
+SCREAM Status: Progress: 16 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }
+SCREAM Status: Progress: 17 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 _r_1_26_27_33_34 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition end_6 is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 }
+SCREAM Status: Progress: 18 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status: Transition +_r_1_26_28 is live
+SCREAM Status: Transition -_r_1_26_28 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }
+SCREAM Status: Progress: 19 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 _r_1_26_28_29 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition end_7 is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status: Transition +_r_1_26_28 is live
+SCREAM Status: Transition -_r_1_26_28 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition +_r_1_26_28_29 is live
+SCREAM Status: Transition -_r_1_26_28_29 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 }
+SCREAM Status: Progress: 20 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status: Transition +_r_1_26_28 is live
+SCREAM Status: Transition -_r_1_26_28 is live
+SCREAM Status: Transition +_r_1_26_28_29 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -_r_1_26_28_29 is live
+SCREAM Status: Transition +_r_1_26_28_30 is live
+SCREAM Status: Transition -_r_1_26_28_30 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 }
+SCREAM Status: Progress: 21 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status: Transition +_r_1_26_28 is live
+SCREAM Status: Transition -_r_1_26_28 is live
+SCREAM Status: Transition +_r_1_26_28_29 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -_r_1_26_28_29 is live
+SCREAM Status: Transition +_r_1_26_28_30 is live
+SCREAM Status: Transition -_r_1_26_28_30 is live
+SCREAM Status: Transition +_r_1_84 is live
+SCREAM Status: Transition -_r_1_84 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 }
+SCREAM Status: Progress: 22 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status: Transition +_r_1_26_28 is live
+SCREAM Status: Transition -_r_1_26_28 is live
+SCREAM Status: Transition +_r_1_26_28_29 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -_r_1_26_28_29 is live
+SCREAM Status: Transition +_r_1_26_28_30 is live
+SCREAM Status: Transition -_r_1_26_28_30 is live
+SCREAM Status: Transition +_r_1_84 is live
+SCREAM Status: Transition -_r_1_84 is live
+SCREAM Status: Transition +_r_1_84_85 is live
+SCREAM Status: Transition -_r_1_84_85 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 }
+SCREAM Status: Progress: 23 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status: Transition +_r_1_26_28 is live
+SCREAM Status: Transition -_r_1_26_28 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition +_r_1_26_28_29 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -_r_1_26_28_29 is live
+SCREAM Status: Transition +_r_1_26_28_30 is live
+SCREAM Status: Transition -_r_1_26_28_30 is live
+SCREAM Status: Transition +_r_1_84 is live
+SCREAM Status: Transition -_r_1_84 is live
+SCREAM Status: Transition +_r_1_84_85 is live
+SCREAM Status: Transition -_r_1_84_85 is live
+SCREAM Status: Transition +_r_7 is live
+SCREAM Status: Transition -_r_7 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }
+SCREAM Status: Progress: 24 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 _r_7_78 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status: Transition +_r_1_26_28 is live
+SCREAM Status: Transition -_r_1_26_28 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }{ _r_7_78 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status: Transition +_r_1_26_28 is live
+SCREAM Status: Transition -_r_1_26_28 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +_r_1_26_28_29 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -_r_1_26_28_29 is live
+SCREAM Status: Transition +_r_1_26_28_30 is live
+SCREAM Status: Transition -_r_1_26_28_30 is live
+SCREAM Status: Transition +_r_1_84 is live
+SCREAM Status: Transition -_r_1_84 is live
+SCREAM Status: Transition +_r_1_84_85 is live
+SCREAM Status: Transition -_r_1_84_85 is live
+SCREAM Status: Transition +_r_7 is live
+SCREAM Status: Transition -_r_7 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -_r_7_78 is live
+SCREAM Status: Transition +_r_7_78 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }{ _r_7_78 }
+SCREAM Status: Progress: 25 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }{ _r_7_78 _r_7_79 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status: Transition +_r_1_26_28 is live
+SCREAM Status: Transition -_r_1_26_28 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +_r_1_26_28_29 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -_r_1_26_28_29 is live
+SCREAM Status: Transition +_r_1_26_28_30 is live
+SCREAM Status: Transition -_r_1_26_28_30 is live
+SCREAM Status: Transition +_r_1_84 is live
+SCREAM Status: Transition -_r_1_84 is live
+SCREAM Status: Transition +_r_1_84_85 is live
+SCREAM Status: Transition -_r_1_84_85 is live
+SCREAM Status: Transition +_r_7 is live
+SCREAM Status: Transition -_r_7 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -_r_7_78 is live
+SCREAM Status: Transition +_r_7_78 is live
+SCREAM Status: Transition +_r_7_79 is live
+SCREAM Status: Transition -_r_7_79 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }{ _r_7_78 _r_7_79 }
+SCREAM Status: Progress: 26 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }{ _r_7_78 _r_7_79 _r_7_80 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status: Transition +_r_1_26_28 is live
+SCREAM Status: Transition -_r_1_26_28 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition +_r_1_26_28_29 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -_r_1_26_28_29 is live
+SCREAM Status: Transition +_r_1_26_28_30 is live
+SCREAM Status: Transition -_r_1_26_28_30 is live
+SCREAM Status: Transition +_r_1_84 is live
+SCREAM Status: Transition -_r_1_84 is live
+SCREAM Status: Transition +_r_1_84_85 is live
+SCREAM Status: Transition -_r_1_84_85 is live
+SCREAM Status: Transition +_r_7 is live
+SCREAM Status: Transition -_r_7 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -_r_7_78 is live
+SCREAM Status: Transition +_r_7_78 is live
+SCREAM Status: Transition +_r_7_79 is live
+SCREAM Status: Transition -_r_7_79 is live
+SCREAM Status: Transition +_r_7_80 is live
+SCREAM Status: Transition -_r_7_80 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }{ _r_7_78 _r_7_79 _r_7_80 }
+SCREAM Status: Progress: 27 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }{ _r_7_78 _r_7_79 _r_7_80 _r_7_88 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status: Transition +_r_1_26_28 is live
+SCREAM Status: Transition -_r_1_26_28 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition +_r_1_26_28_29 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -_r_1_26_28_29 is live
+SCREAM Status: Transition +_r_1_26_28_30 is live
+SCREAM Status: Transition -_r_1_26_28_30 is live
+SCREAM Status: Transition +_r_1_84 is live
+SCREAM Status: Transition -_r_1_84 is live
+SCREAM Status: Transition +_r_1_84_85 is live
+SCREAM Status: Transition -_r_1_84_85 is live
+SCREAM Status: Transition +_r_7 is live
+SCREAM Status: Transition -_r_7 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -_r_7_78 is live
+SCREAM Status: Transition +_r_7_78 is live
+SCREAM Status: Transition +_r_7_79 is live
+SCREAM Status: Transition -_r_7_79 is live
+SCREAM Status: Transition +_r_7_80 is live
+SCREAM Status: Transition -_r_7_80 is live
+SCREAM Status: Transition +_r_7_88 is live
+SCREAM Status: Transition -_r_7_88 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }{ _r_7_78 _r_7_79 _r_7_80 _r_7_88 }
+SCREAM Status: Progress: 28 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }{ _r_7_78 _r_7_79 _r_7_80 _r_7_88 _r_7_89 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status: Transition +_r_1_26_28 is live
+SCREAM Status: Transition -_r_1_26_28 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition +_r_1_26_28_29 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -_r_1_26_28_29 is live
+SCREAM Status: Transition +_r_1_26_28_30 is live
+SCREAM Status: Transition -_r_1_26_28_30 is live
+SCREAM Status: Transition +_r_1_84 is live
+SCREAM Status: Transition -_r_1_84 is live
+SCREAM Status: Transition +_r_1_84_85 is live
+SCREAM Status: Transition -_r_1_84_85 is live
+SCREAM Status: Transition +_r_7 is live
+SCREAM Status: Transition -_r_7 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -_r_7_78 is live
+SCREAM Status: Transition +_r_7_78 is live
+SCREAM Status: Transition +_r_7_79 is live
+SCREAM Status: Transition -_r_7_79 is live
+SCREAM Status: Transition +_r_7_80 is live
+SCREAM Status: Transition -_r_7_80 is live
+SCREAM Status: Transition +_r_7_88 is live
+SCREAM Status: Transition -_r_7_88 is live
+SCREAM Status: Transition +_r_7_89 is live
+SCREAM Status: Transition -_r_7_89 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }{ _r_7_78 _r_7_79 _r_7_80 _r_7_88 _r_7_89 }
+SCREAM Status: Progress: 29 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }{ _r_7_78 _r_7_79 _r_7_80 _r_7_88 _r_7_89 _r_7_90 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status: Transition +_r_1_26_28 is live
+SCREAM Status: Transition -_r_1_26_28 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition +_r_1_26_28_29 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -_r_1_26_28_29 is live
+SCREAM Status: Transition +_r_1_26_28_30 is live
+SCREAM Status: Transition -_r_1_26_28_30 is live
+SCREAM Status: Transition +_r_1_84 is live
+SCREAM Status: Transition -_r_1_84 is live
+SCREAM Status: Transition +_r_1_84_85 is live
+SCREAM Status: Transition -_r_1_84_85 is live
+SCREAM Status: Transition +_r_7 is live
+SCREAM Status: Transition -_r_7 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -_r_7_78 is live
+SCREAM Status: Transition +_r_7_78 is live
+SCREAM Status: Transition +_r_7_79 is live
+SCREAM Status: Transition -_r_7_79 is live
+SCREAM Status: Transition +_r_7_80 is live
+SCREAM Status: Transition -_r_7_80 is live
+SCREAM Status: Transition +_r_7_88 is live
+SCREAM Status: Transition -_r_7_88 is live
+SCREAM Status: Transition +_r_7_89 is live
+SCREAM Status: Transition -_r_7_89 is live
+SCREAM Status: Transition +_r_7_90 is live
+SCREAM Status: Transition -_r_7_90 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }{ _r_7_78 _r_7_79 _r_7_80 _r_7_88 _r_7_89 _r_7_90 }
+SCREAM Status: Progress: 30 / 81
+SCREAM Status: Try { _r }{ _r_1 _r_1_3 _r_1_3_5 _r_1_4 _r_1_18 _r_1_19 _r_1_20 }{ _r_1_20_21_22 _r_1_20_21_23 _r_1_26 }{ _r_1_26_27 }{ _r_1_26_27_29 }{ _r_1_26_27_29_30_31 _r_1_26_27_29_30_32 _r_1_26_27_33 }{ _r_1_26_27_33_34 _r_1_26_28 }{ _r_1_26_28_29 _r_1_26_28_30 _r_1_84 _r_1_84_85 _r_7 }{ _r_7_78 _r_7_79 _r_7_80 _r_7_88 _r_7_89 _r_7_90 _r_13 }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +_r_1_4 is live
+SCREAM Status: Transition -_r_1_18 is live
+SCREAM Status: Transition +_r_1_19 is live
+SCREAM Status: Transition +_r is live
+SCREAM Status: Transition -_r_1_20 is live
+SCREAM Status: Transition +_r_1_3 is live
+SCREAM Status: Transition -_r_1_19 is live
+SCREAM Status: Transition -_r_1_3 is live
+SCREAM Status: Transition +_r_1_18 is live
+SCREAM Status: Transition -_r_1_4 is live
+SCREAM Status: Transition -_r_1_3_5 is live
+SCREAM Status: Transition +_r_1_20 is live
+SCREAM Status: Transition -_r_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +_r_1_20_21_23 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +_r_1_3_5 is live
+SCREAM Status: Transition +_r_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -_r_1_20_21_23 is live
+SCREAM Status: Transition +_r_1_26 is live
+SCREAM Status: Transition -_r_1_26 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -_r_1_20_21_22 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +_r_1_20_21_22 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +_r_1_26_27 is live
+SCREAM Status: Transition -_r_1_26_27 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +_r_1_26_27_29 is live
+SCREAM Status: Transition -_r_1_26_27_29 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_31 is live
+SCREAM Status: Transition +_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition -_r_1_26_27_29_30_32 is live
+SCREAM Status: Transition +_r_1_26_27_33 is live
+SCREAM Status: Transition -_r_1_26_27_33 is live
+SCREAM Status: Transition +_r_1_26_27_33_34 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -_r_1_26_27_33_34 is live
+SCREAM Status: Transition +_r_1_26_28 is live
+SCREAM Status: Transition -_r_1_26_28 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition +_r_1_26_28_29 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -_r_1_26_28_29 is live
+SCREAM Status: Transition +_r_1_26_28_30 is live
+SCREAM Status: Transition -_r_1_26_28_30 is live
+SCREAM Status: Transition +_r_1_84 is live
+SCREAM Status: Transition -_r_1_84 is live
+SCREAM Status: Transition +_r_1_84_85 is live
+SCREAM Status: Transition -_r_1_84_85 is live
+SCREAM Status: Transition +_r_7 is live
+SCREAM Status: Transition -_r_7 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -_r_7_78 is live
+SCREAM Status: Transition +_r_7_78 is live
+SCREAM Status: Transition +_r_7_79 is live
+SCREAM Status: Transition -_r_7_79 is live
+SCREAM Status: Transition +_r_7_80 is live
+SCREAM Status: Transition -_r_7_80 is live
+SCREAM Status: Transition +_r_7_88 is live
+SCREAM Status: Transition -_r_7_88 is live
+SCREAM Status: Transition +_r_7_89 is live
+SCREAM Status: Transition -_r_7_89 is live
+SCREAM Status: Transition +_r_7_90 is live
+SCREAM Status: Transition -_r_7_90 is live
+SCREAM Status: Transition +_r_13 is live
+SCREAM Status: Transition -_r_13 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 

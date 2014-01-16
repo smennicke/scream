@@ -1,0 +1,55 @@
+<feature_model name="">
+<meta>
+<data name="description"></data>
+<data name="creator"></data>
+<data name="email"></data>
+<data name="date"></data>
+<data name="department"></data>
+<data name="organization"></data>
+<data name="address"></data>
+<data name="phone"></data>
+<data name="website"></data>
+<data name="reference"></data>
+</meta><feature_tree>
+r: root (root)
+	:m F1 (F1)
+		:o F5 (F5)
+		:o F6 (F6)
+			:m F7 (F7)
+			:o F8 (F8)
+			:o F9 (F9)
+			:m F10 (F10)
+			:m F11 (F11)
+			:g [1,2]
+				: F12 (F12)
+				: F13 (F13)
+					:m F16 (F16)
+						:o F18 (F18)
+						:m F19 (F19)
+					:m F17 (F17)
+			:g [1,1]
+				: F14 (F14)
+				: F15 (F15)
+	:m F2 (F2)
+	:g [1,2]
+		: F3 (F3)
+		: F4 (F4)
+</feature_tree>
+<constraints>
+R-17: ~F13 or F2
+R-18: ~F8 or ~F2
+R-19: ~F4 or ~F10
+R-20: ~F16 or F8
+R-21: ~F11 or F4
+R-22: ~F8 or F19
+R-23: ~F19 or ~F18
+R-24: ~F7 or ~F11
+R-25: ~F18 or F2
+R-26: ~F19 or F2
+R-27: ~F8 or F15
+R-28: ~F10 or F7
+R-29: ~F9 or ~F16
+R-30: ~F16 or ~F11
+R-31: ~F14 or ~F11
+</constraints>
+</feature_model>

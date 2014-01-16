@@ -1,0 +1,82 @@
+args "--unamed-opts=FILE --include-getopt --show-required --no-handle-error --conf-parser"
+
+package "scream"
+purpose "SCREAM (Staged Configuration of fEAture Models) computes a configuration model, called Stage Model (SM), out of a feature model (FM).\nTherefore, an FM is represented as a Petri net, which is transformed into a workflow net according to the given stage model. An SM is only a configuration model if the underlying workflow Petri net is weakly terminating and has no dead transitions."
+
+section "Product Input / Stage Model Output"
+
+option "product" p
+  "Define the product input method"
+  typestr="FILE"
+  string
+  optional
+
+option "output" o
+  "Select the output file format(s)"
+  typestr="FORMAT"
+  values="lola","dot","png","pdf" enum
+  optional
+  multiple
+
+section "Stage Model Strategies"
+
+option "outer-strategy" s
+  "Define the outer strategy to compute stage models."
+  typestr="STRATEGY"
+  values="forwards","backwards" enum
+  default="forwards"
+  optional
+  
+option "inner-strategy" t
+  "Define the inner strategy to compute stage models."
+  typestr="STRATEGY"
+  values="first","last" enum
+  default="last"
+  optional
+
+option "all" -
+  "If flag is given, all stage models for all sequences are computed."
+  flagoff
+
+option "try-all" -
+  "If flag is given, all sequences are tried to find a stage model."
+  flagoff
+
+option "all-given-sequence" -
+  "If flag is given, all stage models for a given sequence are computed."
+  flagoff
+
+section "Status Messages and Results"
+  
+option "Result" R
+  "Prints result to stdout."
+  flagoff
+  
+option "result" r
+  "Prints result to specified file. If no filename is given, it will be derived from the input file."
+  typestr="FILE"
+  string argoptional optional
+
+option "csv" -
+  "Prints result line in CSV format."
+  typestr="FILE"
+  string argoptional optional
+
+option "Log" L
+  "Prints log to stdout"
+  flagoff
+  
+option "log" l
+  "Prints result to specified file. ..."
+  typestr="FILE"
+  string argoptional optional
+  
+option "interactive" -
+  "Stops when a dead transition or an unsound net was found"
+  flagoff
+  
+option "basepath" -
+  "This is the bin/ path where all the lola tools are in."
+  typestr="PATH"
+  string
+  optional

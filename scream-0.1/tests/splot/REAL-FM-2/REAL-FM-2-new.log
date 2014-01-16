@@ -1,0 +1,3161 @@
+SCREAM Status: forwards strategy chosen
+SCREAM Status: last strategy chosen
+SCREAM Status: Using standard feature sequence
+SCREAM Status: Created feature 'weather_station'
+SCREAM Status: Created feature 'measurements'
+SCREAM Status: Handling cardinalities as [1,*]
+SCREAM Status: Group added
+SCREAM Status: Created feature 'pressure'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to pressure
+SCREAM Status: with parent measurements
+SCREAM Status: Created feature 'temperature'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to temperature
+SCREAM Status: with parent measurements
+SCREAM Status: Created feature 'wind_speed'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to wind_speed
+SCREAM Status: with parent measurements
+SCREAM Status: Created feature 'data_source'
+SCREAM Status: Handling cardinalities as [1,1]
+SCREAM Status: Group added
+SCREAM Status: Created feature 'internet'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to internet
+SCREAM Status: with parent data_source
+SCREAM Status: Created feature 'demo'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to demo
+SCREAM Status: with parent data_source
+SCREAM Status: Created feature 'external_services'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to external_services
+SCREAM Status: with parent data_source
+SCREAM Status: Created feature 'output_format'
+SCREAM Status: Handling cardinalities as [1,1]
+SCREAM Status: Group added
+SCREAM Status: Created feature 'text'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to text
+SCREAM Status: with parent output_format
+SCREAM Status: Created feature 'web_server'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to web_server
+SCREAM Status: with parent output_format
+SCREAM Status: Created feature 'file'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to file
+SCREAM Status: with parent output_format
+SCREAM Status: Created feature 'format'
+SCREAM Status: Handling cardinalities as [1,1]
+SCREAM Status: Group added
+SCREAM Status: Created feature 'xml'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to xml
+SCREAM Status: with parent format
+SCREAM Status: Created feature 'html'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to html
+SCREAM Status: with parent format
+SCREAM Status: Created feature 'plain_text'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to plain_text
+SCREAM Status: with parent format
+SCREAM Status: Created feature 'language'
+SCREAM Status: Handling cardinalities as [1,1]
+SCREAM Status: Group added
+SCREAM Status: Created feature 'english'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to english
+SCREAM Status: with parent language
+SCREAM Status: Created feature 'german'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to german
+SCREAM Status: with parent language
+SCREAM Status: went up to language
+SCREAM Status: went up to output_format
+SCREAM Status: went up to weather_station
+SCREAM Status: Created feature 'alarm'
+SCREAM Status: optional feature added
+SCREAM Status: Handling cardinalities as [1,*]
+SCREAM Status: Group added
+SCREAM Status: Created feature 'freeze_point'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to freeze_point
+SCREAM Status: with parent alarm
+SCREAM Status: Created feature 'storm_alert'
+SCREAM Status: Group Feature added
+SCREAM Status: parent set to storm_alert
+SCREAM Status: with parent alarm
+SCREAM Status: Parsed and built Feature Model with 23 (23) features
+SCREAM Status: Root feature is mandatory
+SCREAM Status: Feature sequence is consistent with FM
+SCREAM Status: Delete root feature's deselection operation
+SCREAM Status: Finished deleting root feature's deselection operation
+SCREAM Status: Progress: 1 / 23
+SCREAM Status: Try { weather_station }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { weather_station }
+SCREAM Status: Progress: 2 / 23
+SCREAM Status: Try { weather_station measurements }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { weather_station }{ measurements }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { weather_station }{ measurements }
+SCREAM Status: Progress: 3 / 23
+SCREAM Status: Try { weather_station }{ measurements pressure }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +measurements is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { weather_station }{ measurements }{ pressure }
+SCREAM Status: Progress: 4 / 23
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { weather_station }{ measurements }{ pressure temperature }
+SCREAM Status: Progress: 5 / 23
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { weather_station }{ measurements }{ pressure temperature wind_speed }
+SCREAM Status: Progress: 6 / 23
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { weather_station }{ measurements }{ pressure temperature wind_speed data_source }
+SCREAM Status: Progress: 7 / 23
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source internet }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }
+SCREAM Status: Progress: 8 / 23
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet demo }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +internet is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo }
+SCREAM Status: Progress: 9 / 23
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services }
+SCREAM Status: Progress: 10 / 23
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }
+SCREAM Status: Progress: 11 / 23
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format text }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -text is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }
+SCREAM Status: Progress: 12 / 23
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text web_server }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +text is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }{ web_server }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }{ web_server }
+SCREAM Status: Progress: 13 / 23
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }{ web_server file }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }{ web_server file }
+SCREAM Status: Progress: 14 / 23
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }{ web_server file format }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (sound) ===== 
+SCREAM Status: Found sound Sub-Stagemodel: { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }{ web_server file format }
+SCREAM Status: Progress: 15 / 23
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }{ web_server file format xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +format is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }{ web_server file format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }{ web_server file }{ format xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition +format is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }{ web_server file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }{ web_server }{ file format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }{ web_server }{ file }{ format xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition +format is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services }{ output_format text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services }{ output_format }{ text web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services }{ output_format }{ text }{ web_server file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services }{ output_format }{ text }{ web_server }{ file format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services }{ output_format }{ text }{ web_server }{ file }{ format xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition +format is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo }{ external_services output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo }{ external_services }{ output_format text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo }{ external_services }{ output_format }{ text web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition +format is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed }{ data_source internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed }{ data_source }{ internet demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed }{ data_source }{ internet }{ demo external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed }{ data_source }{ internet }{ demo }{ external_services output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed }{ data_source }{ internet }{ demo }{ external_services }{ output_format text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed }{ data_source }{ internet }{ demo }{ external_services }{ output_format }{ text web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed }{ data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed }{ data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed }{ data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition +format is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature wind_speed }{ data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature }{ wind_speed data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature }{ wind_speed }{ data_source internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature }{ wind_speed }{ data_source }{ internet demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature }{ wind_speed }{ data_source }{ internet }{ demo external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature }{ wind_speed }{ data_source }{ internet }{ demo }{ external_services output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature }{ wind_speed }{ data_source }{ internet }{ demo }{ external_services }{ output_format text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature }{ wind_speed }{ data_source }{ internet }{ demo }{ external_services }{ output_format }{ text web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature }{ wind_speed }{ data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature }{ wind_speed }{ data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature }{ wind_speed }{ data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition +format is dead
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure temperature }{ wind_speed }{ data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_14 is live
+SCREAM Status: Transition end_14 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure }{ temperature wind_speed }{ data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition begin_14 is live
+SCREAM Status: Transition end_14 is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure }{ temperature }{ wind_speed data_source }{ internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_14 is live
+SCREAM Status: Transition end_14 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure }{ temperature }{ wind_speed }{ data_source internet }{ demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition +format is live
+SCREAM Status: Transition -format is live
+SCREAM Status: Transition begin_14 is live
+SCREAM Status: Transition end_14 is live
+SCREAM Status: Transition +xml is live
+SCREAM Status: Transition -xml is live
+SCREAM Status:  ===== END Dead Transitions Check ===== 
+SCREAM Status:  ===== Lazy Soundness Check (weak termination) ===== 
+SCREAM Status:  ===== END Lazy Soundness Check (unsound) ===== 
+SCREAM Status: Try { weather_station }{ measurements }{ pressure }{ temperature }{ wind_speed }{ data_source }{ internet demo }{ external_services }{ output_format }{ text }{ web_server }{ file }{ format }{ xml }
+SCREAM Status:  ===== BEGIN Dead Transitions Check ===== 
+SCREAM Status: Transition +weather_station is live
+SCREAM Status: Transition begin_1 is live
+SCREAM Status: Transition end_1 is live
+SCREAM Status: Transition begin_3 is live
+SCREAM Status: Transition +measurements is live
+SCREAM Status: Transition end_3 is live
+SCREAM Status: Transition +temperature is live
+SCREAM Status: Transition end_4 is live
+SCREAM Status: Transition begin_2 is live
+SCREAM Status: Transition end_5 is live
+SCREAM Status: Transition -wind_speed is live
+SCREAM Status: Transition +external_services is live
+SCREAM Status: Transition -pressure is live
+SCREAM Status: Transition -data_source is live
+SCREAM Status: Transition +pressure is live
+SCREAM Status: Transition end_2 is live
+SCREAM Status: Transition -temperature is live
+SCREAM Status: Transition begin_4 is live
+SCREAM Status: Transition begin_5 is live
+SCREAM Status: Transition +wind_speed is live
+SCREAM Status: Transition -measurements is live
+SCREAM Status: Transition begin_6 is live
+SCREAM Status: Transition end_6 is live
+SCREAM Status: Transition +data_source is live
+SCREAM Status: Transition +internet is live
+SCREAM Status: Transition begin_7 is live
+SCREAM Status: Transition end_7 is live
+SCREAM Status: Transition -internet is live
+SCREAM Status: Transition +demo is live
+SCREAM Status: Transition -demo is live
+SCREAM Status: Transition -external_services is live
+SCREAM Status: Transition begin_8 is live
+SCREAM Status: Transition end_8 is live
+SCREAM Status: Transition begin_9 is live
+SCREAM Status: Transition end_9 is live
+SCREAM Status: Transition +output_format is live
+SCREAM Status: Transition end_10 is live
+SCREAM Status: Transition -output_format is live
+SCREAM Status: Transition end_11 is live
+SCREAM Status: Transition +text is live
+SCREAM Status: Transition begin_10 is live
+SCREAM Status: Transition -text is live
+SCREAM Status: Transition -web_server is live
+SCREAM Status: Transition +web_server is live
+SCREAM Status: Transition begin_11 is live
+SCREAM Status: Transition begin_12 is live
+SCREAM Status: Transition -file is live
+SCREAM Status: Transition end_12 is live
+SCREAM Status: Transition +file is live
+SCREAM Status: Transition end_13 is live
+SCREAM Status: Transition begin_13 is live
+SCREAM Status: Transition +format is live

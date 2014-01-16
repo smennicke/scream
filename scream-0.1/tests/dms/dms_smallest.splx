@@ -1,0 +1,13 @@
+<feature_tree>
+:r Document Management System (dms)
+	:g [1,1]
+		: MetaDataIndex
+		: GeneralIndex
+	:g [1,1]
+		: GeneralSearch
+		: MetaDataSearch
+</feature_tree>
+<constraints>
+cons-2: ~GeneralSearch or GeneralIndex
+cons-3: ~MetaDataSearch or MetaDataIndex
+</constraints>

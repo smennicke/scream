@@ -1,0 +1,211 @@
+{ Petri net created by SCREAM 1.0 }
+
+PLACE
+  i_1, in_associated_file_ext, in_autosave, in_backup, in_backup_extension, in_backup_onchange, in_commands, in_document_class, in_dos_unix_conversion, in_editor_config, in_ext, in_file_bak, in_file_bak_ext, in_file_ext_bak, in_minutes, in_remove_blank_lines, in_spell_check, in_syntax_definition_file, in_syntax_highlighting, o_1, o_2, o_3, o_4, o_5, o_6, o_7, out_associated_file_ext, out_autosave, out_backup, out_backup_extension, out_backup_onchange, out_commands, out_document_class, out_dos_unix_conversion, out_editor_config, out_ext, out_file_bak, out_file_bak_ext, out_file_ext_bak, out_minutes, out_remove_blank_lines, out_spell_check, out_syntax_definition_file, out_syntax_highlighting, p_+associated_file_ext->+ext, p_+autosave->+minutes, p_+backup->+autosave, p_+backup->+backup_extension, p_+backup->+backup_onchange, p_+backup_extension->+file_bak, p_+backup_extension->+file_bak_ext, p_+backup_extension->+file_ext_bak, p_+commands->+dos_unix_conversion, p_+commands->+remove_blank_lines, p_+commands->+spell_check, p_+document_class->+associated_file_ext, p_+document_class->+commands, p_+document_class->+syntax_highlighting, p_+editor_config->+backup, p_+editor_config->+document_class, p_+syntax_highlighting->+syntax_definition_file, p_-autosave->-backup, p_-autosave->-minutes, p_-backup->-backup_extension, p_-document_class->-associated_file_ext, p_-document_class->-commands, p_-dos_unix_conversion->-commands, p_-editor_config->-backup, p_-ext->-associated_file_ext, p_-file_bak->+file_bak_ext, p_-file_bak->+file_ext_bak, p_-file_bak_ext->+file_ext_bak, p_-file_ext_bak->+file_bak_ext, p_-remove_blank_lines->-commands, p_-spell_check->-commands, p_-syntax_highlighting->-syntax_definition_file;
+
+MARKING
+  i_1:1;
+
+
+TRANSITION +associated_file_ext
+  CONSUME in_associated_file_ext:1, p_+document_class->+associated_file_ext:1;
+  PRODUCE out_associated_file_ext:1, p_+associated_file_ext->+ext:1;
+
+TRANSITION +autosave
+  CONSUME in_autosave:1, p_+backup->+autosave:1;
+  PRODUCE out_autosave:1, p_+autosave->+minutes:1;
+
+TRANSITION +backup
+  CONSUME in_backup:1, p_+editor_config->+backup:1;
+  PRODUCE out_backup:1, p_+backup->+autosave:1, p_+backup->+backup_extension:1, p_+backup->+backup_onchange:1;
+
+TRANSITION +backup_extension
+  CONSUME in_backup_extension:1, p_+backup->+backup_extension:1;
+  PRODUCE out_backup_extension:1, p_+backup_extension->+file_bak:1, p_+backup_extension->+file_bak_ext:1, p_+backup_extension->+file_ext_bak:1;
+
+TRANSITION +backup_onchange
+  CONSUME in_backup_onchange:1, p_+backup->+backup_onchange:1;
+  PRODUCE out_backup_onchange:1;
+
+TRANSITION +commands
+  CONSUME in_commands:1, p_+document_class->+commands:1;
+  PRODUCE out_commands:1, p_+commands->+dos_unix_conversion:1, p_+commands->+remove_blank_lines:1, p_+commands->+spell_check:1;
+
+TRANSITION +document_class
+  CONSUME in_document_class:1, p_+editor_config->+document_class:1;
+  PRODUCE out_document_class:1, p_+document_class->+associated_file_ext:1, p_+document_class->+commands:1, p_+document_class->+syntax_highlighting:1;
+
+TRANSITION +dos_unix_conversion
+  CONSUME in_dos_unix_conversion:1, p_+commands->+dos_unix_conversion:1;
+  PRODUCE out_dos_unix_conversion:1;
+
+TRANSITION +editor_config
+  CONSUME in_editor_config:1;
+  PRODUCE out_editor_config:1, p_+editor_config->+backup:1, p_+editor_config->+document_class:1;
+
+TRANSITION +ext
+  CONSUME in_ext:1, p_+associated_file_ext->+ext:1;
+  PRODUCE out_ext:1;
+
+TRANSITION +file_bak
+  CONSUME in_file_bak:1, p_+backup_extension->+file_bak:1;
+  PRODUCE out_file_bak:1;
+
+TRANSITION +file_bak_ext
+  CONSUME in_file_bak_ext:1, p_+backup_extension->+file_bak_ext:1, p_-file_bak->+file_bak_ext:1, p_-file_ext_bak->+file_bak_ext:1;
+  PRODUCE out_file_bak_ext:1;
+
+TRANSITION +file_ext_bak
+  CONSUME in_file_ext_bak:1, p_+backup_extension->+file_ext_bak:1, p_-file_bak->+file_ext_bak:1, p_-file_bak_ext->+file_ext_bak:1;
+  PRODUCE out_file_ext_bak:1;
+
+TRANSITION +minutes
+  CONSUME in_minutes:1, p_+autosave->+minutes:1;
+  PRODUCE out_minutes:1;
+
+TRANSITION +remove_blank_lines
+  CONSUME in_remove_blank_lines:1, p_+commands->+remove_blank_lines:1;
+  PRODUCE out_remove_blank_lines:1;
+
+TRANSITION +spell_check
+  CONSUME in_spell_check:1, p_+commands->+spell_check:1;
+  PRODUCE out_spell_check:1;
+
+TRANSITION +syntax_definition_file
+  CONSUME in_syntax_definition_file:1, p_+syntax_highlighting->+syntax_definition_file:1;
+  PRODUCE out_syntax_definition_file:1;
+
+TRANSITION +syntax_highlighting
+  CONSUME in_syntax_highlighting:1, p_+document_class->+syntax_highlighting:1;
+  PRODUCE out_syntax_highlighting:1, p_+syntax_highlighting->+syntax_definition_file:1;
+
+TRANSITION -associated_file_ext
+  CONSUME in_associated_file_ext:1, p_-document_class->-associated_file_ext:1, p_-ext->-associated_file_ext:1;
+  PRODUCE out_associated_file_ext:1;
+
+TRANSITION -autosave
+  CONSUME in_autosave:1;
+  PRODUCE out_autosave:1, p_-autosave->-backup:1, p_-autosave->-minutes:1;
+
+TRANSITION -backup
+  CONSUME in_backup:1, p_-autosave->-backup:1, p_-editor_config->-backup:1;
+  PRODUCE out_backup:1, p_-backup->-backup_extension:1;
+
+TRANSITION -backup_extension
+  CONSUME in_backup_extension:1, p_-backup->-backup_extension:1;
+  PRODUCE out_backup_extension:1;
+
+TRANSITION -backup_onchange
+  CONSUME in_backup_onchange:1;
+  PRODUCE out_backup_onchange:1;
+
+TRANSITION -commands
+  CONSUME in_commands:1, p_-document_class->-commands:1, p_-dos_unix_conversion->-commands:1, p_-remove_blank_lines->-commands:1, p_-spell_check->-commands:1;
+  PRODUCE out_commands:1;
+
+TRANSITION -document_class
+  CONSUME in_document_class:1;
+  PRODUCE out_document_class:1, p_-document_class->-associated_file_ext:1, p_-document_class->-commands:1;
+
+TRANSITION -dos_unix_conversion
+  CONSUME in_dos_unix_conversion:1;
+  PRODUCE out_dos_unix_conversion:1, p_-dos_unix_conversion->-commands:1;
+
+TRANSITION -editor_config
+  CONSUME in_editor_config:1;
+  PRODUCE out_editor_config:1, p_-editor_config->-backup:1;
+
+TRANSITION -ext
+  CONSUME in_ext:1;
+  PRODUCE out_ext:1, p_-ext->-associated_file_ext:1;
+
+TRANSITION -file_bak
+  CONSUME in_file_bak:1;
+  PRODUCE out_file_bak:1, p_-file_bak->+file_bak_ext:1, p_-file_bak->+file_ext_bak:1;
+
+TRANSITION -file_bak_ext
+  CONSUME in_file_bak_ext:1;
+  PRODUCE out_file_bak_ext:1, p_-file_bak_ext->+file_ext_bak:1;
+
+TRANSITION -file_ext_bak
+  CONSUME in_file_ext_bak:1;
+  PRODUCE out_file_ext_bak:1, p_-file_ext_bak->+file_bak_ext:1;
+
+TRANSITION -minutes
+  CONSUME in_minutes:1, p_-autosave->-minutes:1;
+  PRODUCE out_minutes:1;
+
+TRANSITION -remove_blank_lines
+  CONSUME in_remove_blank_lines:1;
+  PRODUCE out_remove_blank_lines:1, p_-remove_blank_lines->-commands:1;
+
+TRANSITION -spell_check
+  CONSUME in_spell_check:1;
+  PRODUCE out_spell_check:1, p_-spell_check->-commands:1;
+
+TRANSITION -syntax_definition_file
+  CONSUME in_syntax_definition_file:1, p_-syntax_highlighting->-syntax_definition_file:1;
+  PRODUCE out_syntax_definition_file:1;
+
+TRANSITION -syntax_highlighting
+  CONSUME in_syntax_highlighting:1;
+  PRODUCE out_syntax_highlighting:1, p_-syntax_highlighting->-syntax_definition_file:1;
+
+TRANSITION begin_1
+  CONSUME i_1:1;
+  PRODUCE in_editor_config:1;
+
+TRANSITION begin_2
+  CONSUME o_1:1;
+  PRODUCE in_autosave:1, in_backup:1;
+
+TRANSITION begin_3
+  CONSUME o_2:1;
+  PRODUCE in_backup_extension:1, in_backup_onchange:1, in_minutes:1;
+
+TRANSITION begin_4
+  CONSUME o_3:1;
+  PRODUCE in_file_bak:1;
+
+TRANSITION begin_5
+  CONSUME o_4:1;
+  PRODUCE in_document_class:1, in_file_bak_ext:1, in_file_ext_bak:1;
+
+TRANSITION begin_6
+  CONSUME o_5:1;
+  PRODUCE in_associated_file_ext:1, in_commands:1, in_dos_unix_conversion:1, in_ext:1, in_remove_blank_lines:1, in_spell_check:1, in_syntax_highlighting:1;
+
+TRANSITION begin_7
+  CONSUME o_6:1;
+  PRODUCE in_syntax_definition_file:1;
+
+TRANSITION end_1
+  CONSUME out_editor_config:1;
+  PRODUCE o_1:1;
+
+TRANSITION end_2
+  CONSUME out_autosave:1, out_backup:1;
+  PRODUCE o_2:1;
+
+TRANSITION end_3
+  CONSUME out_backup_extension:1, out_backup_onchange:1, out_minutes:1;
+  PRODUCE o_3:1;
+
+TRANSITION end_4
+  CONSUME out_file_bak:1;
+  PRODUCE o_4:1;
+
+TRANSITION end_5
+  CONSUME out_document_class:1, out_file_bak_ext:1, out_file_ext_bak:1;
+  PRODUCE o_5:1;
+
+TRANSITION end_6
+  CONSUME out_associated_file_ext:1, out_commands:1, out_dos_unix_conversion:1, out_ext:1, out_remove_blank_lines:1, out_spell_check:1, out_syntax_highlighting:1;
+  PRODUCE o_6:1;
+
+TRANSITION end_7
+  CONSUME out_syntax_definition_file:1;
+  PRODUCE o_7:1;
+
+
+{ END OF FILE }

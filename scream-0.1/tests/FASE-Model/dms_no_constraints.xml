@@ -1,0 +1,33 @@
+<feature_tree>
+:r Document Management System (DMS)
+	:o OCR
+		:g [1,*]
+			: PDFOCR
+			: ImageOCR
+	:g [1,*]
+		: UnicodeTextType
+		: SimpleTextType
+		: ImageType
+		: PDFType
+	:g [1,1]
+		: MetaDataIndex
+			:m ContentIndex
+			:m TitleIndex
+			:o AuthorIndex
+		: GeneralIndex
+	:o FileNameIndex
+	:o Search
+		:m FileNameSearch
+		:g [1,*]
+			: GeneralSearch
+			: MetaDataSearch
+				:o AuthorSearch
+				:m TitleSearch
+				:m ContentSearch
+	:o Report
+		:g [1,*]
+			: SearchResults
+			: TitleIndexUsage
+</feature_tree>
+<constraints>
+</constraints>

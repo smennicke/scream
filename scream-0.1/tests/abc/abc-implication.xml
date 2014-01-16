@@ -1,0 +1,11 @@
+<feature_tree>
+:r Root (root)
+	:o A (a)
+	:o B (b)
+	:o C (c)
+</feature_tree>
+<constraints>
+c1: ~a or b
+c2: ~b or c
+c3: ~c or a
+</constraints>

@@ -1,0 +1,21 @@
+ +------ Scream Result File ------ 
+ |              FM: REAL-FM-14-new.xml
+ |       #Features: 18
+ |            CTCR: 3 %
+ +-------------------------------- 
+ |  Outer Strategy: forwards
+ |  Inner Strategy: last
+ |    #SMs visited: 24
+ +-------------------------------- 
+ |        sound SM: yes
+ |         #Stages: 7
+ |  Features/Stage: 2.57143
+ |       Max Stage: 7
+ |       Min Stage: 1
+ +-------------------------------- 
+ |             |P|: 76
+ |             |T|: 50
+ |             |F|: 186
+ |            |PN|: 312
+ +-------------------------------- 
+ | { editor_config }{ backup autosave }{ minutes backup_onchange backup_extension }{ file_bak }{ file_bak_ext file_ext_bak document_class }{ associated_file_ext ext commands remove_blank_lines spell_check dos_unix_conversion syntax_highlighting }{ syntax_definition_file }

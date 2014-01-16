@@ -1,0 +1,21 @@
+configuration: {
+  verification = "DEADTRANSITION";
+  exploration = "DEPTH_FIRST";
+  reduction = {
+    STUBBORN = true;
+    PREDUCTION = true;
+    SMALLSTATE = true;
+  };
+  parameters = {
+    HASHSIZE = 65536;
+    REPORTFREQUENCY = 100000;
+  };
+};
+not dead: {
+  result = false;
+};
+statistics: {
+  states = 9;
+  edges = 8;
+  hash_table_entries = 9;
+};

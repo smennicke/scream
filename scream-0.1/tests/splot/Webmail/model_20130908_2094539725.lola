@@ -1,0 +1,319 @@
+{ Petri net created by SCREAM 1.0 }
+
+PLACE
+  i_1, in__r, in__r_1, in__r_13, in__r_1_18, in__r_1_19, in__r_1_20, in__r_1_20_21_22, in__r_1_20_21_23, in__r_1_26, in__r_1_26_27, in__r_1_26_27_29, in__r_1_26_27_29_30_31, in__r_1_26_27_29_30_32, in__r_1_26_27_33, in__r_1_26_27_33_34, in__r_1_26_28, in__r_1_26_28_29, in__r_1_26_28_30, in__r_1_3, in__r_1_3_5, in__r_1_4, in__r_1_84, in__r_1_84_85, in__r_7, in__r_7_78, in__r_7_79, in__r_7_80, in__r_7_88, in__r_7_89, in__r_7_90, o_1, o_2, o_3, o_4, o_5, o_6, o_7, o_8, o_9, out__r, out__r_1, out__r_13, out__r_1_18, out__r_1_19, out__r_1_20, out__r_1_20_21_22, out__r_1_20_21_23, out__r_1_26, out__r_1_26_27, out__r_1_26_27_29, out__r_1_26_27_29_30_31, out__r_1_26_27_29_30_32, out__r_1_26_27_33, out__r_1_26_27_33_34, out__r_1_26_28, out__r_1_26_28_29, out__r_1_26_28_30, out__r_1_3, out__r_1_3_5, out__r_1_4, out__r_1_84, out__r_1_84_85, out__r_7, out__r_7_78, out__r_7_79, out__r_7_80, out__r_7_88, out__r_7_89, out__r_7_90, p_+_r->+_r_1, p_+_r->+_r_13, p_+_r->+_r_31, p_+_r->+_r_32, p_+_r->+_r_33, p_+_r->+_r_34, p_+_r->+_r_35, p_+_r->+_r_7, p_+_r_1->+_r_1_18, p_+_r_1->+_r_1_19, p_+_r_1->+_r_1_20, p_+_r_1->+_r_1_26, p_+_r_1->+_r_1_3, p_+_r_1->+_r_1_4, p_+_r_1->+_r_1_84, p_+_r_13->+_r_13_14, p_+_r_1_20->+_r_1_20_21_22, p_+_r_1_20->+_r_1_20_21_23, p_+_r_1_26->+_r_1_26_27, p_+_r_1_26->+_r_1_26_28, p_+_r_1_26_27->+_r_1_26_27_29, p_+_r_1_26_27->+_r_1_26_27_33, p_+_r_1_26_27_29->+_r_1_26_27_29_30_31, p_+_r_1_26_27_29->+_r_1_26_27_29_30_32, p_+_r_1_26_27_33->+_r_1_26_27_33_34, p_+_r_1_26_28->+_r_1_26_28_29, p_+_r_1_26_28->+_r_1_26_28_30, p_+_r_1_3->+_r_1_3_5, p_+_r_1_84->+_r_1_84_85, p_+_r_7->+_r_7_78, p_+_r_7->+_r_7_79, p_+_r_7->+_r_7_80, p_+_r_7->+_r_7_88, p_+_r_7->+_r_7_89, p_+_r_7->+_r_7_90, p_-_r_1->-_r, p_-_r_1->-_r_1_26, p_-_r_13->-_r, p_-_r_13->-_r_13_14, p_-_r_1_18->-_r_1, p_-_r_1_19->-_r_1, p_-_r_1_20->-_r_1, p_-_r_1_20_21_22, p_-_r_1_20_21_23, p_-_r_1_26->-_r_1_26_27, p_-_r_1_26_27->-_r_1_26_27_29, p_-_r_1_26_27->-_r_1_26_27_33, p_-_r_1_26_27_29_30_31, p_-_r_1_26_27_29_30_32, p_-_r_1_26_27_33->-_r_1_26_27_33_34, p_-_r_1_26_28->-_r_1_26_28_29, p_-_r_1_3->-_r_1, p_-_r_1_3_5->-_r_1_3, p_-_r_1_4->-_r_1, p_-_r_1_84_85->-_r_1_84, p_-_r_7->-_r, p_-_r_7->-_r_7_78, p_-_r_7->-_r_7_88;
+
+MARKING
+  i_1:1;
+
+
+TRANSITION +_r
+  CONSUME in__r:1;
+  PRODUCE out__r:1, p_+_r->+_r_1:1, p_+_r->+_r_13:1, p_+_r->+_r_31:1, p_+_r->+_r_32:1, p_+_r->+_r_33:1, p_+_r->+_r_34:1, p_+_r->+_r_35:1, p_+_r->+_r_7:1;
+
+TRANSITION +_r_1
+  CONSUME in__r_1:1, p_+_r->+_r_1:1;
+  PRODUCE out__r_1:1, p_+_r_1->+_r_1_18:1, p_+_r_1->+_r_1_19:1, p_+_r_1->+_r_1_20:1, p_+_r_1->+_r_1_26:1, p_+_r_1->+_r_1_3:1, p_+_r_1->+_r_1_4:1, p_+_r_1->+_r_1_84:1;
+
+TRANSITION +_r_13
+  CONSUME in__r_13:1, p_+_r->+_r_13:1;
+  PRODUCE out__r_13:1, p_+_r_13->+_r_13_14:1;
+
+TRANSITION +_r_1_18
+  CONSUME in__r_1_18:1, p_+_r_1->+_r_1_18:1;
+  PRODUCE out__r_1_18:1;
+
+TRANSITION +_r_1_19
+  CONSUME in__r_1_19:1, p_+_r_1->+_r_1_19:1;
+  PRODUCE out__r_1_19:1;
+
+TRANSITION +_r_1_20
+  CONSUME in__r_1_20:1, p_+_r_1->+_r_1_20:1;
+  PRODUCE out__r_1_20:1, p_+_r_1_20->+_r_1_20_21_22:1, p_+_r_1_20->+_r_1_20_21_23:1;
+
+TRANSITION +_r_1_20_21_22
+  CONSUME in__r_1_20_21_22:1, p_+_r_1_20->+_r_1_20_21_22:1;
+  PRODUCE out__r_1_20_21_22:1, p_-_r_1_20_21_23:1;
+
+TRANSITION +_r_1_20_21_23
+  CONSUME in__r_1_20_21_23:1, p_+_r_1_20->+_r_1_20_21_23:1;
+  PRODUCE out__r_1_20_21_23:1, p_-_r_1_20_21_22:1;
+
+TRANSITION +_r_1_26
+  CONSUME in__r_1_26:1, p_+_r_1->+_r_1_26:1;
+  PRODUCE out__r_1_26:1, p_+_r_1_26->+_r_1_26_27:1, p_+_r_1_26->+_r_1_26_28:1;
+
+TRANSITION +_r_1_26_27
+  CONSUME in__r_1_26_27:1, p_+_r_1_26->+_r_1_26_27:1;
+  PRODUCE out__r_1_26_27:1, p_+_r_1_26_27->+_r_1_26_27_29:1, p_+_r_1_26_27->+_r_1_26_27_33:1;
+
+TRANSITION +_r_1_26_27_29
+  CONSUME in__r_1_26_27_29:1, p_+_r_1_26_27->+_r_1_26_27_29:1;
+  PRODUCE out__r_1_26_27_29:1, p_+_r_1_26_27_29->+_r_1_26_27_29_30_31:1, p_+_r_1_26_27_29->+_r_1_26_27_29_30_32:1;
+
+TRANSITION +_r_1_26_27_29_30_31
+  CONSUME in__r_1_26_27_29_30_31:1, p_+_r_1_26_27_29->+_r_1_26_27_29_30_31:1;
+  PRODUCE out__r_1_26_27_29_30_31:1, p_-_r_1_26_27_29_30_32:1;
+
+TRANSITION +_r_1_26_27_29_30_32
+  CONSUME in__r_1_26_27_29_30_32:1, p_+_r_1_26_27_29->+_r_1_26_27_29_30_32:1;
+  PRODUCE out__r_1_26_27_29_30_32:1, p_-_r_1_26_27_29_30_31:1;
+
+TRANSITION +_r_1_26_27_33
+  CONSUME in__r_1_26_27_33:1, p_+_r_1_26_27->+_r_1_26_27_33:1;
+  PRODUCE out__r_1_26_27_33:1, p_+_r_1_26_27_33->+_r_1_26_27_33_34:1;
+
+TRANSITION +_r_1_26_27_33_34
+  CONSUME in__r_1_26_27_33_34:1, p_+_r_1_26_27_33->+_r_1_26_27_33_34:1;
+  PRODUCE out__r_1_26_27_33_34:1;
+
+TRANSITION +_r_1_26_28
+  CONSUME in__r_1_26_28:1, p_+_r_1_26->+_r_1_26_28:1;
+  PRODUCE out__r_1_26_28:1, p_+_r_1_26_28->+_r_1_26_28_29:1, p_+_r_1_26_28->+_r_1_26_28_30:1;
+
+TRANSITION +_r_1_26_28_29
+  CONSUME in__r_1_26_28_29:1, p_+_r_1_26_28->+_r_1_26_28_29:1;
+  PRODUCE out__r_1_26_28_29:1;
+
+TRANSITION +_r_1_26_28_30
+  CONSUME in__r_1_26_28_30:1, p_+_r_1_26_28->+_r_1_26_28_30:1;
+  PRODUCE out__r_1_26_28_30:1;
+
+TRANSITION +_r_1_3
+  CONSUME in__r_1_3:1, p_+_r_1->+_r_1_3:1;
+  PRODUCE out__r_1_3:1, p_+_r_1_3->+_r_1_3_5:1;
+
+TRANSITION +_r_1_3_5
+  CONSUME in__r_1_3_5:1, p_+_r_1_3->+_r_1_3_5:1;
+  PRODUCE out__r_1_3_5:1;
+
+TRANSITION +_r_1_4
+  CONSUME in__r_1_4:1, p_+_r_1->+_r_1_4:1;
+  PRODUCE out__r_1_4:1;
+
+TRANSITION +_r_1_84
+  CONSUME in__r_1_84:1, p_+_r_1->+_r_1_84:1;
+  PRODUCE out__r_1_84:1, p_+_r_1_84->+_r_1_84_85:1;
+
+TRANSITION +_r_1_84_85
+  CONSUME in__r_1_84_85:1, p_+_r_1_84->+_r_1_84_85:1;
+  PRODUCE out__r_1_84_85:1;
+
+TRANSITION +_r_7
+  CONSUME in__r_7:1, p_+_r->+_r_7:1;
+  PRODUCE out__r_7:1, p_+_r_7->+_r_7_78:1, p_+_r_7->+_r_7_79:1, p_+_r_7->+_r_7_80:1, p_+_r_7->+_r_7_88:1, p_+_r_7->+_r_7_89:1, p_+_r_7->+_r_7_90:1;
+
+TRANSITION +_r_7_78
+  CONSUME in__r_7_78:1, p_+_r_7->+_r_7_78:1;
+  PRODUCE out__r_7_78:1;
+
+TRANSITION +_r_7_79
+  CONSUME in__r_7_79:1, p_+_r_7->+_r_7_79:1;
+  PRODUCE out__r_7_79:1;
+
+TRANSITION +_r_7_80
+  CONSUME in__r_7_80:1, p_+_r_7->+_r_7_80:1;
+  PRODUCE out__r_7_80:1;
+
+TRANSITION +_r_7_88
+  CONSUME in__r_7_88:1, p_+_r_7->+_r_7_88:1;
+  PRODUCE out__r_7_88:1;
+
+TRANSITION +_r_7_89
+  CONSUME in__r_7_89:1, p_+_r_7->+_r_7_89:1;
+  PRODUCE out__r_7_89:1;
+
+TRANSITION +_r_7_90
+  CONSUME in__r_7_90:1, p_+_r_7->+_r_7_90:1;
+  PRODUCE out__r_7_90:1;
+
+TRANSITION -_r_1
+  CONSUME in__r_1:1, p_-_r_1_18->-_r_1:1, p_-_r_1_19->-_r_1:1, p_-_r_1_20->-_r_1:1, p_-_r_1_3->-_r_1:1, p_-_r_1_4->-_r_1:1;
+  PRODUCE out__r_1:1, p_-_r_1->-_r:1, p_-_r_1->-_r_1_26:1;
+
+TRANSITION -_r_13
+  CONSUME in__r_13:1;
+  PRODUCE out__r_13:1, p_-_r_13->-_r:1, p_-_r_13->-_r_13_14:1;
+
+TRANSITION -_r_1_18
+  CONSUME in__r_1_18:1;
+  PRODUCE out__r_1_18:1, p_-_r_1_18->-_r_1:1;
+
+TRANSITION -_r_1_19
+  CONSUME in__r_1_19:1;
+  PRODUCE out__r_1_19:1, p_-_r_1_19->-_r_1:1;
+
+TRANSITION -_r_1_20
+  CONSUME in__r_1_20:1;
+  PRODUCE out__r_1_20:1, p_-_r_1_20->-_r_1:1, p_-_r_1_20_21_22:1, p_-_r_1_20_21_23:1;
+
+TRANSITION -_r_1_20_21_22
+  CONSUME in__r_1_20_21_22:1, p_-_r_1_20_21_22:1;
+  PRODUCE out__r_1_20_21_22:1;
+
+TRANSITION -_r_1_20_21_23
+  CONSUME in__r_1_20_21_23:1, p_-_r_1_20_21_23:1;
+  PRODUCE out__r_1_20_21_23:1;
+
+TRANSITION -_r_1_26
+  CONSUME in__r_1_26:1, p_-_r_1->-_r_1_26:1;
+  PRODUCE out__r_1_26:1, p_-_r_1_26->-_r_1_26_27:1;
+
+TRANSITION -_r_1_26_27
+  CONSUME in__r_1_26_27:1, p_-_r_1_26->-_r_1_26_27:1;
+  PRODUCE out__r_1_26_27:1, p_-_r_1_26_27->-_r_1_26_27_29:1, p_-_r_1_26_27->-_r_1_26_27_33:1;
+
+TRANSITION -_r_1_26_27_29
+  CONSUME in__r_1_26_27_29:1, p_-_r_1_26_27->-_r_1_26_27_29:1;
+  PRODUCE out__r_1_26_27_29:1, p_-_r_1_26_27_29_30_31:1, p_-_r_1_26_27_29_30_32:1;
+
+TRANSITION -_r_1_26_27_29_30_31
+  CONSUME in__r_1_26_27_29_30_31:1, p_-_r_1_26_27_29_30_31:1;
+  PRODUCE out__r_1_26_27_29_30_31:1;
+
+TRANSITION -_r_1_26_27_29_30_32
+  CONSUME in__r_1_26_27_29_30_32:1, p_-_r_1_26_27_29_30_32:1;
+  PRODUCE out__r_1_26_27_29_30_32:1;
+
+TRANSITION -_r_1_26_27_33
+  CONSUME in__r_1_26_27_33:1, p_-_r_1_26_27->-_r_1_26_27_33:1;
+  PRODUCE out__r_1_26_27_33:1, p_-_r_1_26_27_33->-_r_1_26_27_33_34:1;
+
+TRANSITION -_r_1_26_27_33_34
+  CONSUME in__r_1_26_27_33_34:1, p_-_r_1_26_27_33->-_r_1_26_27_33_34:1;
+  PRODUCE out__r_1_26_27_33_34:1;
+
+TRANSITION -_r_1_26_28
+  CONSUME in__r_1_26_28:1;
+  PRODUCE out__r_1_26_28:1, p_-_r_1_26_28->-_r_1_26_28_29:1;
+
+TRANSITION -_r_1_26_28_29
+  CONSUME in__r_1_26_28_29:1, p_-_r_1_26_28->-_r_1_26_28_29:1;
+  PRODUCE out__r_1_26_28_29:1;
+
+TRANSITION -_r_1_26_28_30
+  CONSUME in__r_1_26_28_30:1;
+  PRODUCE out__r_1_26_28_30:1;
+
+TRANSITION -_r_1_3
+  CONSUME in__r_1_3:1, p_-_r_1_3_5->-_r_1_3:1;
+  PRODUCE out__r_1_3:1, p_-_r_1_3->-_r_1:1;
+
+TRANSITION -_r_1_3_5
+  CONSUME in__r_1_3_5:1;
+  PRODUCE out__r_1_3_5:1, p_-_r_1_3_5->-_r_1_3:1;
+
+TRANSITION -_r_1_4
+  CONSUME in__r_1_4:1;
+  PRODUCE out__r_1_4:1, p_-_r_1_4->-_r_1:1;
+
+TRANSITION -_r_1_84
+  CONSUME in__r_1_84:1, p_-_r_1_84_85->-_r_1_84:1;
+  PRODUCE out__r_1_84:1;
+
+TRANSITION -_r_1_84_85
+  CONSUME in__r_1_84_85:1;
+  PRODUCE out__r_1_84_85:1, p_-_r_1_84_85->-_r_1_84:1;
+
+TRANSITION -_r_7
+  CONSUME in__r_7:1;
+  PRODUCE out__r_7:1, p_-_r_7->-_r:1, p_-_r_7->-_r_7_78:1, p_-_r_7->-_r_7_88:1;
+
+TRANSITION -_r_7_78
+  CONSUME in__r_7_78:1, p_-_r_7->-_r_7_78:1;
+  PRODUCE out__r_7_78:1;
+
+TRANSITION -_r_7_79
+  CONSUME in__r_7_79:1;
+  PRODUCE out__r_7_79:1;
+
+TRANSITION -_r_7_80
+  CONSUME in__r_7_80:1;
+  PRODUCE out__r_7_80:1;
+
+TRANSITION -_r_7_88
+  CONSUME in__r_7_88:1, p_-_r_7->-_r_7_88:1;
+  PRODUCE out__r_7_88:1;
+
+TRANSITION -_r_7_89
+  CONSUME in__r_7_89:1;
+  PRODUCE out__r_7_89:1;
+
+TRANSITION -_r_7_90
+  CONSUME in__r_7_90:1;
+  PRODUCE out__r_7_90:1;
+
+TRANSITION begin_1
+  CONSUME i_1:1;
+  PRODUCE in__r:1;
+
+TRANSITION begin_2
+  CONSUME o_1:1;
+  PRODUCE in__r_1:1, in__r_1_18:1, in__r_1_19:1, in__r_1_20:1, in__r_1_3:1, in__r_1_3_5:1, in__r_1_4:1;
+
+TRANSITION begin_3
+  CONSUME o_2:1;
+  PRODUCE in__r_1_20_21_22:1, in__r_1_20_21_23:1, in__r_1_26:1;
+
+TRANSITION begin_4
+  CONSUME o_3:1;
+  PRODUCE in__r_1_26_27:1;
+
+TRANSITION begin_5
+  CONSUME o_4:1;
+  PRODUCE in__r_1_26_27_29:1;
+
+TRANSITION begin_6
+  CONSUME o_5:1;
+  PRODUCE in__r_1_26_27_29_30_31:1, in__r_1_26_27_29_30_32:1, in__r_1_26_27_33:1;
+
+TRANSITION begin_7
+  CONSUME o_6:1;
+  PRODUCE in__r_1_26_27_33_34:1, in__r_1_26_28:1;
+
+TRANSITION begin_8
+  CONSUME o_7:1;
+  PRODUCE in__r_1_26_28_29:1, in__r_1_26_28_30:1, in__r_1_84:1, in__r_1_84_85:1, in__r_7:1;
+
+TRANSITION begin_9
+  CONSUME o_8:1;
+  PRODUCE in__r_13:1, in__r_7_78:1, in__r_7_79:1, in__r_7_80:1, in__r_7_88:1, in__r_7_89:1, in__r_7_90:1;
+
+TRANSITION end_1
+  CONSUME out__r:1;
+  PRODUCE o_1:1;
+
+TRANSITION end_2
+  CONSUME out__r_1:1, out__r_1_18:1, out__r_1_19:1, out__r_1_20:1, out__r_1_3:1, out__r_1_3_5:1, out__r_1_4:1;
+  PRODUCE o_2:1;
+
+TRANSITION end_3
+  CONSUME out__r_1_20_21_22:1, out__r_1_20_21_23:1, out__r_1_26:1;
+  PRODUCE o_3:1;
+
+TRANSITION end_4
+  CONSUME out__r_1_26_27:1;
+  PRODUCE o_4:1;
+
+TRANSITION end_5
+  CONSUME out__r_1_26_27_29:1;
+  PRODUCE o_5:1;
+
+TRANSITION end_6
+  CONSUME out__r_1_26_27_29_30_31:1, out__r_1_26_27_29_30_32:1, out__r_1_26_27_33:1;
+  PRODUCE o_6:1;
+
+TRANSITION end_7
+  CONSUME out__r_1_26_27_33_34:1, out__r_1_26_28:1;
+  PRODUCE o_7:1;
+
+TRANSITION end_8
+  CONSUME out__r_1_26_28_29:1, out__r_1_26_28_30:1, out__r_1_84:1, out__r_1_84_85:1, out__r_7:1;
+  PRODUCE o_8:1;
+
+TRANSITION end_9
+  CONSUME out__r_13:1, out__r_7_78:1, out__r_7_79:1, out__r_7_80:1, out__r_7_88:1, out__r_7_89:1, out__r_7_90:1;
+  PRODUCE o_9:1;
+
+
+{ END OF FILE }

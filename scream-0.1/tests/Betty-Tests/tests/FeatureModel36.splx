@@ -1,0 +1,29 @@
+<feature_model name="">
+<meta>
+<data name="description"></data>
+<data name="creator"></data>
+<data name="email"></data>
+<data name="date"></data>
+<data name="department"></data>
+<data name="organization"></data>
+<data name="address"></data>
+<data name="phone"></data>
+<data name="website"></data>
+<data name="reference"></data>
+</meta><feature_tree>
+r: root (root)
+	:o F1 (F1)
+	:m F2 (F2)
+		:m F9 (F9)
+	:m F3 (F3)
+		:m F6 (F6)
+		:m F7 (F7)
+		:m F8 (F8)
+	:g [1,2]
+		: F4 (F4)
+		: F5 (F5)
+</feature_tree>
+<constraints>
+R-9: ~F1 or ~F3
+</constraints>
+</feature_model>

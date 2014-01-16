@@ -1,0 +1,17 @@
+<feature_tree>
+:r Root (root)
+	:g [1,1]
+		: A (a)
+			:o A1 (a1)
+		: B (b)
+			:g [1,*]
+				: b1
+				: b2
+					:m b21
+				: b3
+		: C (c)
+	:o R1 (r1)
+</feature_tree>
+<constraints>
+c0: ~b21 or ~r1
+</constraints>

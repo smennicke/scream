@@ -1,0 +1,355 @@
+{ Petri net created by SCREAM 1.0 }
+
+PLACE
+  i_1, in_alarm, in_data_source, in_demo, in_english, in_external_services, in_file, in_format, in_freeze_point, in_german, in_html, in_internet, in_language, in_measurements, in_output_format, in_plain_text, in_pressure, in_temperature, in_text, in_weather_station, in_web_server, in_wind_speed, in_xml, o_1, o_10, o_11, o_12, o_13, o_14, o_15, o_16, o_17, o_18, o_19, o_2, o_20, o_21, o_3, o_4, o_5, o_6, o_7, o_8, o_9, out_alarm, out_data_source, out_demo, out_english, out_external_services, out_file, out_format, out_freeze_point, out_german, out_html, out_internet, out_language, out_measurements, out_output_format, out_plain_text, out_pressure, out_temperature, out_text, out_weather_station, out_web_server, out_wind_speed, out_xml, p_+alarm->+freeze_point, p_+alarm->+storm_alert, p_+data_source->+demo, p_+data_source->+external_services, p_+data_source->+internet, p_+format->+html, p_+format->+plain_text, p_+format->+xml, p_+language->+english, p_+language->+german, p_+measurements->+pressure, p_+measurements->+temperature, p_+measurements->+wind_speed, p_+output_format->+file, p_+output_format->+format, p_+output_format->+language, p_+output_format->+text, p_+output_format->+web_server, p_+temperature->+freeze_point, p_+weather_station->+alarm, p_+weather_station->+data_source, p_+weather_station->+measurements, p_+weather_station->+output_format, p_-demo->+external_services, p_-english->+german, p_-freeze_point, p_-html->+plain_text, p_-internet->+demo, p_-internet->+external_services, p_-output_format->-format, p_-output_format->-language, p_-text->+file, p_-text->+web_server, p_-weather_station->-data_source, p_-weather_station->-measurements, p_-weather_station->-output_format, p_-web_server->+file, p_-web_server->+text, p_-xml->+html, p_-xml->+plain_text;
+
+MARKING
+  i_1:1;
+
+
+TRANSITION +alarm
+  CONSUME in_alarm:1, p_+weather_station->+alarm:1;
+  PRODUCE out_alarm:1, p_+alarm->+freeze_point:1, p_+alarm->+storm_alert:1;
+
+TRANSITION +data_source
+  CONSUME in_data_source:1, p_+weather_station->+data_source:1;
+  PRODUCE out_data_source:1, p_+data_source->+demo:1, p_+data_source->+external_services:1, p_+data_source->+internet:1;
+
+TRANSITION +demo
+  CONSUME in_demo:1, p_+data_source->+demo:1, p_-internet->+demo:1;
+  PRODUCE out_demo:1;
+
+TRANSITION +english
+  CONSUME in_english:1, p_+language->+english:1;
+  PRODUCE out_english:1;
+
+TRANSITION +external_services
+  CONSUME in_external_services:1, p_+data_source->+external_services:1, p_-demo->+external_services:1, p_-internet->+external_services:1;
+  PRODUCE out_external_services:1;
+
+TRANSITION +file
+  CONSUME in_file:1, p_+output_format->+file:1, p_-text->+file:1, p_-web_server->+file:1;
+  PRODUCE out_file:1;
+
+TRANSITION +format
+  CONSUME in_format:1, p_+output_format->+format:1;
+  PRODUCE out_format:1, p_+format->+html:1, p_+format->+plain_text:1, p_+format->+xml:1;
+
+TRANSITION +freeze_point
+  CONSUME in_freeze_point:1, p_+alarm->+freeze_point:1, p_+temperature->+freeze_point:1;
+  PRODUCE out_freeze_point:1;
+
+TRANSITION +german
+  CONSUME in_german:1, p_+language->+german:1, p_-english->+german:1;
+  PRODUCE out_german:1;
+
+TRANSITION +html
+  CONSUME in_html:1, p_+format->+html:1, p_-xml->+html:1;
+  PRODUCE out_html:1;
+
+TRANSITION +internet
+  CONSUME in_internet:1, p_+data_source->+internet:1;
+  PRODUCE out_internet:1;
+
+TRANSITION +language
+  CONSUME in_language:1, p_+output_format->+language:1;
+  PRODUCE out_language:1, p_+language->+english:1, p_+language->+german:1;
+
+TRANSITION +measurements
+  CONSUME in_measurements:1, p_+weather_station->+measurements:1;
+  PRODUCE out_measurements:1, p_+measurements->+pressure:1, p_+measurements->+temperature:1, p_+measurements->+wind_speed:1;
+
+TRANSITION +output_format
+  CONSUME in_output_format:1, p_+weather_station->+output_format:1;
+  PRODUCE out_output_format:1, p_+output_format->+file:1, p_+output_format->+format:1, p_+output_format->+language:1, p_+output_format->+text:1, p_+output_format->+web_server:1;
+
+TRANSITION +plain_text
+  CONSUME in_plain_text:1, p_+format->+plain_text:1, p_-html->+plain_text:1, p_-xml->+plain_text:1;
+  PRODUCE out_plain_text:1;
+
+TRANSITION +pressure
+  CONSUME in_pressure:1, p_+measurements->+pressure:1;
+  PRODUCE out_pressure:1;
+
+TRANSITION +temperature
+  CONSUME in_temperature:1, p_+measurements->+temperature:1;
+  PRODUCE out_temperature:1, p_+temperature->+freeze_point:1;
+
+TRANSITION +text
+  CONSUME in_text:1, p_+output_format->+text:1, p_-web_server->+text:1;
+  PRODUCE out_text:1;
+
+TRANSITION +weather_station
+  CONSUME in_weather_station:1;
+  PRODUCE out_weather_station:1, p_+weather_station->+alarm:1, p_+weather_station->+data_source:1, p_+weather_station->+measurements:1, p_+weather_station->+output_format:1;
+
+TRANSITION +web_server
+  CONSUME in_web_server:1, p_+output_format->+web_server:1, p_-text->+web_server:1;
+  PRODUCE out_web_server:1;
+
+TRANSITION +wind_speed
+  CONSUME in_wind_speed:1, p_+measurements->+wind_speed:1;
+  PRODUCE out_wind_speed:1;
+
+TRANSITION +xml
+  CONSUME in_xml:1, p_+format->+xml:1;
+  PRODUCE out_xml:1;
+
+TRANSITION -alarm
+  CONSUME in_alarm:1;
+  PRODUCE out_alarm:1, p_-freeze_point:1;
+
+TRANSITION -data_source
+  CONSUME in_data_source:1, p_-weather_station->-data_source:1;
+  PRODUCE out_data_source:1;
+
+TRANSITION -demo
+  CONSUME in_demo:1;
+  PRODUCE out_demo:1, p_-demo->+external_services:1;
+
+TRANSITION -english
+  CONSUME in_english:1;
+  PRODUCE out_english:1, p_-english->+german:1;
+
+TRANSITION -external_services
+  CONSUME in_external_services:1;
+  PRODUCE out_external_services:1;
+
+TRANSITION -file
+  CONSUME in_file:1;
+  PRODUCE out_file:1;
+
+TRANSITION -format
+  CONSUME in_format:1, p_-output_format->-format:1;
+  PRODUCE out_format:1;
+
+TRANSITION -freeze_point
+  CONSUME in_freeze_point:1, p_-freeze_point:1;
+  PRODUCE out_freeze_point:1;
+
+TRANSITION -german
+  CONSUME in_german:1;
+  PRODUCE out_german:1;
+
+TRANSITION -html
+  CONSUME in_html:1;
+  PRODUCE out_html:1, p_-html->+plain_text:1;
+
+TRANSITION -internet
+  CONSUME in_internet:1;
+  PRODUCE out_internet:1, p_-internet->+demo:1, p_-internet->+external_services:1;
+
+TRANSITION -language
+  CONSUME in_language:1, p_-output_format->-language:1;
+  PRODUCE out_language:1;
+
+TRANSITION -measurements
+  CONSUME in_measurements:1, p_-weather_station->-measurements:1;
+  PRODUCE out_measurements:1;
+
+TRANSITION -output_format
+  CONSUME in_output_format:1, p_-weather_station->-output_format:1;
+  PRODUCE out_output_format:1, p_-output_format->-format:1, p_-output_format->-language:1;
+
+TRANSITION -plain_text
+  CONSUME in_plain_text:1;
+  PRODUCE out_plain_text:1;
+
+TRANSITION -pressure
+  CONSUME in_pressure:1;
+  PRODUCE out_pressure:1;
+
+TRANSITION -temperature
+  CONSUME in_temperature:1;
+  PRODUCE out_temperature:1;
+
+TRANSITION -text
+  CONSUME in_text:1;
+  PRODUCE out_text:1, p_-text->+file:1, p_-text->+web_server:1;
+
+TRANSITION -weather_station
+  CONSUME in_weather_station:1;
+  PRODUCE out_weather_station:1, p_-weather_station->-data_source:1, p_-weather_station->-measurements:1, p_-weather_station->-output_format:1;
+
+TRANSITION -web_server
+  CONSUME in_web_server:1;
+  PRODUCE out_web_server:1, p_-web_server->+file:1, p_-web_server->+text:1;
+
+TRANSITION -wind_speed
+  CONSUME in_wind_speed:1;
+  PRODUCE out_wind_speed:1;
+
+TRANSITION -xml
+  CONSUME in_xml:1;
+  PRODUCE out_xml:1, p_-xml->+html:1, p_-xml->+plain_text:1;
+
+TRANSITION begin_1
+  CONSUME i_1:1;
+  PRODUCE in_weather_station:1;
+
+TRANSITION begin_10
+  CONSUME o_9:1;
+  PRODUCE in_output_format:1;
+
+TRANSITION begin_11
+  CONSUME o_10:1;
+  PRODUCE in_text:1, in_web_server:1;
+
+TRANSITION begin_12
+  CONSUME o_11:1;
+  PRODUCE in_file:1;
+
+TRANSITION begin_13
+  CONSUME o_12:1;
+  PRODUCE in_format:1;
+
+TRANSITION begin_14
+  CONSUME o_13:1;
+  PRODUCE in_xml:1;
+
+TRANSITION begin_15
+  CONSUME o_14:1;
+  PRODUCE in_html:1;
+
+TRANSITION begin_16
+  CONSUME o_15:1;
+  PRODUCE in_plain_text:1;
+
+TRANSITION begin_17
+  CONSUME o_16:1;
+  PRODUCE in_language:1;
+
+TRANSITION begin_18
+  CONSUME o_17:1;
+  PRODUCE in_english:1;
+
+TRANSITION begin_19
+  CONSUME o_18:1;
+  PRODUCE in_german:1;
+
+TRANSITION begin_2
+  CONSUME o_1:1;
+  PRODUCE in_measurements:1;
+
+TRANSITION begin_20
+  CONSUME o_19:1;
+  PRODUCE in_alarm:1;
+
+TRANSITION begin_21
+  CONSUME o_20:1;
+  PRODUCE in_freeze_point:1;
+
+TRANSITION begin_3
+  CONSUME o_2:1;
+  PRODUCE in_pressure:1;
+
+TRANSITION begin_4
+  CONSUME o_3:1;
+  PRODUCE in_temperature:1;
+
+TRANSITION begin_5
+  CONSUME o_4:1;
+  PRODUCE in_wind_speed:1;
+
+TRANSITION begin_6
+  CONSUME o_5:1;
+  PRODUCE in_data_source:1;
+
+TRANSITION begin_7
+  CONSUME o_6:1;
+  PRODUCE in_internet:1;
+
+TRANSITION begin_8
+  CONSUME o_7:1;
+  PRODUCE in_demo:1;
+
+TRANSITION begin_9
+  CONSUME o_8:1;
+  PRODUCE in_external_services:1;
+
+TRANSITION end_1
+  CONSUME out_weather_station:1;
+  PRODUCE o_1:1;
+
+TRANSITION end_10
+  CONSUME out_output_format:1;
+  PRODUCE o_10:1;
+
+TRANSITION end_11
+  CONSUME out_text:1, out_web_server:1;
+  PRODUCE o_11:1;
+
+TRANSITION end_12
+  CONSUME out_file:1;
+  PRODUCE o_12:1;
+
+TRANSITION end_13
+  CONSUME out_format:1;
+  PRODUCE o_13:1;
+
+TRANSITION end_14
+  CONSUME out_xml:1;
+  PRODUCE o_14:1;
+
+TRANSITION end_15
+  CONSUME out_html:1;
+  PRODUCE o_15:1;
+
+TRANSITION end_16
+  CONSUME out_plain_text:1;
+  PRODUCE o_16:1;
+
+TRANSITION end_17
+  CONSUME out_language:1;
+  PRODUCE o_17:1;
+
+TRANSITION end_18
+  CONSUME out_english:1;
+  PRODUCE o_18:1;
+
+TRANSITION end_19
+  CONSUME out_german:1;
+  PRODUCE o_19:1;
+
+TRANSITION end_2
+  CONSUME out_measurements:1;
+  PRODUCE o_2:1;
+
+TRANSITION end_20
+  CONSUME out_alarm:1;
+  PRODUCE o_20:1;
+
+TRANSITION end_21
+  CONSUME out_freeze_point:1;
+  PRODUCE o_21:1;
+
+TRANSITION end_3
+  CONSUME out_pressure:1;
+  PRODUCE o_3:1;
+
+TRANSITION end_4
+  CONSUME out_temperature:1;
+  PRODUCE o_4:1;
+
+TRANSITION end_5
+  CONSUME out_wind_speed:1;
+  PRODUCE o_5:1;
+
+TRANSITION end_6
+  CONSUME out_data_source:1;
+  PRODUCE o_6:1;
+
+TRANSITION end_7
+  CONSUME out_internet:1;
+  PRODUCE o_7:1;
+
+TRANSITION end_8
+  CONSUME out_demo:1;
+  PRODUCE o_8:1;
+
+TRANSITION end_9
+  CONSUME out_external_services:1;
+  PRODUCE o_9:1;
+
+
+{ END OF FILE }

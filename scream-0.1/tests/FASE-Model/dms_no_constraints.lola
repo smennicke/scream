@@ -1,0 +1,247 @@
+{ Petri net created by SCREAM 1.0 }
+
+PLACE
+  i_1, in_AuthorIndex, in_AuthorSearch, in_ContentIndex, in_ContentSearch, in_DMS, in_FileNameIndex, in_FileNameSearch, in_GeneralIndex, in_GeneralSearch, in_ImageOCR, in_ImageType, in_MetaDataIndex, in_MetaDataSearch, in_OCR, in_PDFOCR, in_PDFType, in_Report, in_Search, in_SearchResults, in_SimpleTextType, in_TitleIndex, in_TitleIndexUsage, in_TitleSearch, in_UnicodeTextType, o_1, o_2, o_3, o_4, o_5, o_6, out_AuthorIndex, out_AuthorSearch, out_ContentIndex, out_ContentSearch, out_DMS, out_FileNameIndex, out_FileNameSearch, out_GeneralIndex, out_GeneralSearch, out_ImageOCR, out_ImageType, out_MetaDataIndex, out_MetaDataSearch, out_OCR, out_PDFOCR, out_PDFType, out_Report, out_Search, out_SearchResults, out_SimpleTextType, out_TitleIndex, out_TitleIndexUsage, out_TitleSearch, out_UnicodeTextType, p_+DMS->+FileNameIndex, p_+DMS->+GeneralIndex, p_+DMS->+ImageType, p_+DMS->+MetaDataIndex, p_+DMS->+OCR, p_+DMS->+PDFType, p_+DMS->+Report, p_+DMS->+Search, p_+DMS->+SimpleTextType, p_+DMS->+UnicodeTextType, p_+MetaDataIndex->+AuthorIndex, p_+MetaDataIndex->+ContentIndex, p_+MetaDataIndex->+TitleIndex, p_+MetaDataSearch->+AuthorSearch, p_+MetaDataSearch->+ContentSearch, p_+MetaDataSearch->+TitleSearch, p_+OCR->+ImageOCR, p_+OCR->+PDFOCR, p_+Report->+SearchResults, p_+Report->+TitleIndexUsage, p_+Search->+FileNameSearch, p_+Search->+GeneralSearch, p_+Search->+MetaDataSearch, p_-AuthorSearch->-MetaDataSearch, p_-GeneralSearch, p_-ImageOCR, p_-MetaDataIndex->+GeneralIndex, p_-MetaDataIndex->-ContentIndex, p_-MetaDataIndex->-TitleIndex, p_-MetaDataSearch, p_-MetaDataSearch->-ContentSearch, p_-MetaDataSearch->-TitleSearch, p_-OCR->-DMS, p_-PDFOCR, p_-Search->-FileNameSearch, p_-SearchResults, p_-TitleIndexUsage;
+
+MARKING
+  i_1:1;
+
+
+TRANSITION +AuthorIndex
+  CONSUME in_AuthorIndex:1, p_+MetaDataIndex->+AuthorIndex:1;
+  PRODUCE out_AuthorIndex:1;
+
+TRANSITION +AuthorSearch
+  CONSUME in_AuthorSearch:1, p_+MetaDataSearch->+AuthorSearch:1;
+  PRODUCE out_AuthorSearch:1;
+
+TRANSITION +ContentIndex
+  CONSUME in_ContentIndex:1, p_+MetaDataIndex->+ContentIndex:1;
+  PRODUCE out_ContentIndex:1;
+
+TRANSITION +ContentSearch
+  CONSUME in_ContentSearch:1, p_+MetaDataSearch->+ContentSearch:1;
+  PRODUCE out_ContentSearch:1;
+
+TRANSITION +DMS
+  CONSUME in_DMS:1;
+  PRODUCE out_DMS:1, p_+DMS->+FileNameIndex:1, p_+DMS->+GeneralIndex:1, p_+DMS->+ImageType:1, p_+DMS->+MetaDataIndex:1, p_+DMS->+OCR:1, p_+DMS->+PDFType:1, p_+DMS->+Report:1, p_+DMS->+Search:1, p_+DMS->+SimpleTextType:1, p_+DMS->+UnicodeTextType:1;
+
+TRANSITION +FileNameIndex
+  CONSUME in_FileNameIndex:1, p_+DMS->+FileNameIndex:1;
+  PRODUCE out_FileNameIndex:1;
+
+TRANSITION +FileNameSearch
+  CONSUME in_FileNameSearch:1, p_+Search->+FileNameSearch:1;
+  PRODUCE out_FileNameSearch:1;
+
+TRANSITION +GeneralIndex
+  CONSUME in_GeneralIndex:1, p_+DMS->+GeneralIndex:1, p_-MetaDataIndex->+GeneralIndex:1;
+  PRODUCE out_GeneralIndex:1;
+
+TRANSITION +GeneralSearch
+  CONSUME in_GeneralSearch:1, p_+Search->+GeneralSearch:1;
+  PRODUCE out_GeneralSearch:1, p_-MetaDataSearch:1;
+
+TRANSITION +ImageOCR
+  CONSUME in_ImageOCR:1, p_+OCR->+ImageOCR:1;
+  PRODUCE out_ImageOCR:1, p_-PDFOCR:1;
+
+TRANSITION +ImageType
+  CONSUME in_ImageType:1, p_+DMS->+ImageType:1;
+  PRODUCE out_ImageType:1;
+
+TRANSITION +MetaDataIndex
+  CONSUME in_MetaDataIndex:1, p_+DMS->+MetaDataIndex:1;
+  PRODUCE out_MetaDataIndex:1, p_+MetaDataIndex->+AuthorIndex:1, p_+MetaDataIndex->+ContentIndex:1, p_+MetaDataIndex->+TitleIndex:1;
+
+TRANSITION +MetaDataSearch
+  CONSUME in_MetaDataSearch:1, p_+Search->+MetaDataSearch:1;
+  PRODUCE out_MetaDataSearch:1, p_+MetaDataSearch->+AuthorSearch:1, p_+MetaDataSearch->+ContentSearch:1, p_+MetaDataSearch->+TitleSearch:1, p_-GeneralSearch:1;
+
+TRANSITION +OCR
+  CONSUME in_OCR:1, p_+DMS->+OCR:1;
+  PRODUCE out_OCR:1, p_+OCR->+ImageOCR:1, p_+OCR->+PDFOCR:1;
+
+TRANSITION +PDFOCR
+  CONSUME in_PDFOCR:1, p_+OCR->+PDFOCR:1;
+  PRODUCE out_PDFOCR:1, p_-ImageOCR:1;
+
+TRANSITION +PDFType
+  CONSUME in_PDFType:1, p_+DMS->+PDFType:1;
+  PRODUCE out_PDFType:1;
+
+TRANSITION +Report
+  CONSUME in_Report:1, p_+DMS->+Report:1;
+  PRODUCE out_Report:1, p_+Report->+SearchResults:1, p_+Report->+TitleIndexUsage:1;
+
+TRANSITION +Search
+  CONSUME in_Search:1, p_+DMS->+Search:1;
+  PRODUCE out_Search:1, p_+Search->+FileNameSearch:1, p_+Search->+GeneralSearch:1, p_+Search->+MetaDataSearch:1;
+
+TRANSITION +SearchResults
+  CONSUME in_SearchResults:1, p_+Report->+SearchResults:1;
+  PRODUCE out_SearchResults:1, p_-TitleIndexUsage:1;
+
+TRANSITION +SimpleTextType
+  CONSUME in_SimpleTextType:1, p_+DMS->+SimpleTextType:1;
+  PRODUCE out_SimpleTextType:1;
+
+TRANSITION +TitleIndex
+  CONSUME in_TitleIndex:1, p_+MetaDataIndex->+TitleIndex:1;
+  PRODUCE out_TitleIndex:1;
+
+TRANSITION +TitleIndexUsage
+  CONSUME in_TitleIndexUsage:1, p_+Report->+TitleIndexUsage:1;
+  PRODUCE out_TitleIndexUsage:1, p_-SearchResults:1;
+
+TRANSITION +TitleSearch
+  CONSUME in_TitleSearch:1, p_+MetaDataSearch->+TitleSearch:1;
+  PRODUCE out_TitleSearch:1;
+
+TRANSITION +UnicodeTextType
+  CONSUME in_UnicodeTextType:1, p_+DMS->+UnicodeTextType:1;
+  PRODUCE out_UnicodeTextType:1;
+
+TRANSITION -AuthorIndex
+  CONSUME in_AuthorIndex:1;
+  PRODUCE out_AuthorIndex:1;
+
+TRANSITION -AuthorSearch
+  CONSUME in_AuthorSearch:1;
+  PRODUCE out_AuthorSearch:1, p_-AuthorSearch->-MetaDataSearch:1;
+
+TRANSITION -ContentIndex
+  CONSUME in_ContentIndex:1, p_-MetaDataIndex->-ContentIndex:1;
+  PRODUCE out_ContentIndex:1;
+
+TRANSITION -ContentSearch
+  CONSUME in_ContentSearch:1, p_-MetaDataSearch->-ContentSearch:1;
+  PRODUCE out_ContentSearch:1;
+
+TRANSITION -FileNameIndex
+  CONSUME in_FileNameIndex:1;
+  PRODUCE out_FileNameIndex:1;
+
+TRANSITION -FileNameSearch
+  CONSUME in_FileNameSearch:1, p_-Search->-FileNameSearch:1;
+  PRODUCE out_FileNameSearch:1;
+
+TRANSITION -GeneralIndex
+  CONSUME in_GeneralIndex:1;
+  PRODUCE out_GeneralIndex:1;
+
+TRANSITION -GeneralSearch
+  CONSUME in_GeneralSearch:1, p_-GeneralSearch:1;
+  PRODUCE out_GeneralSearch:1;
+
+TRANSITION -ImageOCR
+  CONSUME in_ImageOCR:1, p_-ImageOCR:1;
+  PRODUCE out_ImageOCR:1;
+
+TRANSITION -ImageType
+  CONSUME in_ImageType:1;
+  PRODUCE out_ImageType:1;
+
+TRANSITION -MetaDataIndex
+  CONSUME in_MetaDataIndex:1;
+  PRODUCE out_MetaDataIndex:1, p_-MetaDataIndex->+GeneralIndex:1, p_-MetaDataIndex->-ContentIndex:1, p_-MetaDataIndex->-TitleIndex:1;
+
+TRANSITION -MetaDataSearch
+  CONSUME in_MetaDataSearch:1, p_-AuthorSearch->-MetaDataSearch:1, p_-MetaDataSearch:1;
+  PRODUCE out_MetaDataSearch:1, p_-MetaDataSearch->-ContentSearch:1, p_-MetaDataSearch->-TitleSearch:1;
+
+TRANSITION -OCR
+  CONSUME in_OCR:1;
+  PRODUCE out_OCR:1, p_-ImageOCR:1, p_-OCR->-DMS:1, p_-PDFOCR:1;
+
+TRANSITION -PDFOCR
+  CONSUME in_PDFOCR:1, p_-PDFOCR:1;
+  PRODUCE out_PDFOCR:1;
+
+TRANSITION -PDFType
+  CONSUME in_PDFType:1;
+  PRODUCE out_PDFType:1;
+
+TRANSITION -Report
+  CONSUME in_Report:1;
+  PRODUCE out_Report:1, p_-SearchResults:1, p_-TitleIndexUsage:1;
+
+TRANSITION -Search
+  CONSUME in_Search:1;
+  PRODUCE out_Search:1, p_-GeneralSearch:1, p_-MetaDataSearch:1, p_-Search->-FileNameSearch:1;
+
+TRANSITION -SearchResults
+  CONSUME in_SearchResults:1, p_-SearchResults:1;
+  PRODUCE out_SearchResults:1;
+
+TRANSITION -SimpleTextType
+  CONSUME in_SimpleTextType:1;
+  PRODUCE out_SimpleTextType:1;
+
+TRANSITION -TitleIndex
+  CONSUME in_TitleIndex:1, p_-MetaDataIndex->-TitleIndex:1;
+  PRODUCE out_TitleIndex:1;
+
+TRANSITION -TitleIndexUsage
+  CONSUME in_TitleIndexUsage:1, p_-TitleIndexUsage:1;
+  PRODUCE out_TitleIndexUsage:1;
+
+TRANSITION -TitleSearch
+  CONSUME in_TitleSearch:1, p_-MetaDataSearch->-TitleSearch:1;
+  PRODUCE out_TitleSearch:1;
+
+TRANSITION -UnicodeTextType
+  CONSUME in_UnicodeTextType:1;
+  PRODUCE out_UnicodeTextType:1;
+
+TRANSITION begin_1
+  CONSUME i_1:1;
+  PRODUCE in_DMS:1, in_OCR:1;
+
+TRANSITION begin_2
+  CONSUME o_1:1;
+  PRODUCE in_ImageOCR:1, in_ImageType:1, in_MetaDataIndex:1, in_PDFOCR:1, in_PDFType:1, in_SimpleTextType:1, in_UnicodeTextType:1;
+
+TRANSITION begin_3
+  CONSUME o_2:1;
+  PRODUCE in_AuthorIndex:1, in_ContentIndex:1, in_FileNameIndex:1, in_GeneralIndex:1, in_Search:1, in_TitleIndex:1;
+
+TRANSITION begin_4
+  CONSUME o_3:1;
+  PRODUCE in_AuthorSearch:1, in_FileNameSearch:1, in_GeneralSearch:1, in_MetaDataSearch:1;
+
+TRANSITION begin_5
+  CONSUME o_4:1;
+  PRODUCE in_ContentSearch:1, in_Report:1, in_TitleSearch:1;
+
+TRANSITION begin_6
+  CONSUME o_5:1;
+  PRODUCE in_SearchResults:1, in_TitleIndexUsage:1;
+
+TRANSITION end_1
+  CONSUME out_DMS:1, out_OCR:1;
+  PRODUCE o_1:1;
+
+TRANSITION end_2
+  CONSUME out_ImageOCR:1, out_ImageType:1, out_MetaDataIndex:1, out_PDFOCR:1, out_PDFType:1, out_SimpleTextType:1, out_UnicodeTextType:1;
+  PRODUCE o_2:1;
+
+TRANSITION end_3
+  CONSUME out_AuthorIndex:1, out_ContentIndex:1, out_FileNameIndex:1, out_GeneralIndex:1, out_Search:1, out_TitleIndex:1;
+  PRODUCE o_3:1;
+
+TRANSITION end_4
+  CONSUME out_AuthorSearch:1, out_FileNameSearch:1, out_GeneralSearch:1, out_MetaDataSearch:1;
+  PRODUCE o_4:1;
+
+TRANSITION end_5
+  CONSUME out_ContentSearch:1, out_Report:1, out_TitleSearch:1;
+  PRODUCE o_5:1;
+
+TRANSITION end_6
+  CONSUME out_SearchResults:1, out_TitleIndexUsage:1;
+  PRODUCE o_6:1;
+
+
+{ END OF FILE }

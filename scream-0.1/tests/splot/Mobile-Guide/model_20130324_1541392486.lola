@@ -1,0 +1,159 @@
+{ Petri net created by SCREAM 1.0 }
+
+PLACE
+  i_1, in__r, in__r_1, in__r_3, in__r_5, in__r_6, in__r_7, in__r_8, in__r_9, in__r_9_16, in__r_9_17, in__r_9_17_20, in__r_9_17_20_80, in__r_9_17_20_81, in__r_9_17_20_82, o_1, o_2, o_3, o_4, o_5, out__r, out__r_1, out__r_3, out__r_5, out__r_6, out__r_7, out__r_8, out__r_9, out__r_9_16, out__r_9_17, out__r_9_17_20, out__r_9_17_20_80, out__r_9_17_20_81, out__r_9_17_20_82, p_+_r->+_r_1, p_+_r->+_r_25, p_+_r->+_r_29, p_+_r->+_r_3, p_+_r->+_r_33, p_+_r->+_r_47, p_+_r->+_r_5, p_+_r->+_r_56, p_+_r->+_r_6, p_+_r->+_r_7, p_+_r->+_r_8, p_+_r->+_r_9, p_+_r_9->+_r_9_16, p_+_r_9->+_r_9_17, p_+_r_9->+_r_9_18, p_+_r_9_17->+_r_9, p_+_r_9_17->+_r_9_17_20, p_+_r_9_17_20->+_r_9_17_20_80, p_+_r_9_17_20->+_r_9_17_20_81, p_+_r_9_17_20->+_r_9_17_20_82, p_+_r_9_17_20_80->+_r_56_57_58_59, p_-_r_1->-_r, p_-_r_3->-_r, p_-_r_5->-_r, p_-_r_5->-_r_9_18, p_-_r_6->-_r, p_-_r_6->-_r_9_17_20_82, p_-_r_7->-_r, p_-_r_8->-_r, p_-_r_9->-_r, p_-_r_9->-_r_9_17, p_-_r_9->-_r_9_18, p_-_r_9_16->-_r_9, p_-_r_9_17->-_r_9, p_-_r_9_17->-_r_9_17_20, p_-_r_9_17_20->-_r_9_17_20_80, p_-_r_9_17_20->-_r_9_17_20_81, p_-_r_9_17_20->-_r_9_17_20_82;
+
+MARKING
+  i_1:1;
+
+
+TRANSITION +_r
+  CONSUME in__r:1;
+  PRODUCE out__r:1, p_+_r->+_r_1:1, p_+_r->+_r_25:1, p_+_r->+_r_29:1, p_+_r->+_r_3:1, p_+_r->+_r_33:1, p_+_r->+_r_47:1, p_+_r->+_r_5:1, p_+_r->+_r_56:1, p_+_r->+_r_6:1, p_+_r->+_r_7:1, p_+_r->+_r_8:1, p_+_r->+_r_9:1;
+
+TRANSITION +_r_1
+  CONSUME in__r_1:1, p_+_r->+_r_1:1;
+  PRODUCE out__r_1:1;
+
+TRANSITION +_r_3
+  CONSUME in__r_3:1, p_+_r->+_r_3:1;
+  PRODUCE out__r_3:1;
+
+TRANSITION +_r_5
+  CONSUME in__r_5:1, p_+_r->+_r_5:1;
+  PRODUCE out__r_5:1;
+
+TRANSITION +_r_6
+  CONSUME in__r_6:1, p_+_r->+_r_6:1;
+  PRODUCE out__r_6:1;
+
+TRANSITION +_r_7
+  CONSUME in__r_7:1, p_+_r->+_r_7:1;
+  PRODUCE out__r_7:1;
+
+TRANSITION +_r_8
+  CONSUME in__r_8:1, p_+_r->+_r_8:1;
+  PRODUCE out__r_8:1;
+
+TRANSITION +_r_9
+  CONSUME in__r_9:1, p_+_r->+_r_9:1, p_+_r_9_17->+_r_9:1;
+  PRODUCE out__r_9:1, p_+_r_9->+_r_9_16:1, p_+_r_9->+_r_9_17:1, p_+_r_9->+_r_9_18:1;
+
+TRANSITION +_r_9_16
+  CONSUME in__r_9_16:1, p_+_r_9->+_r_9_16:1;
+  PRODUCE out__r_9_16:1;
+
+TRANSITION +_r_9_17
+  CONSUME in__r_9_17:1, p_+_r_9->+_r_9_17:1;
+  PRODUCE out__r_9_17:1, p_+_r_9_17->+_r_9:1, p_+_r_9_17->+_r_9_17_20:1;
+
+TRANSITION +_r_9_17_20
+  CONSUME in__r_9_17_20:1, p_+_r_9_17->+_r_9_17_20:1;
+  PRODUCE out__r_9_17_20:1, p_+_r_9_17_20->+_r_9_17_20_80:1, p_+_r_9_17_20->+_r_9_17_20_81:1, p_+_r_9_17_20->+_r_9_17_20_82:1;
+
+TRANSITION +_r_9_17_20_80
+  CONSUME in__r_9_17_20_80:1, p_+_r_9_17_20->+_r_9_17_20_80:1;
+  PRODUCE out__r_9_17_20_80:1, p_+_r_9_17_20_80->+_r_56_57_58_59:1;
+
+TRANSITION +_r_9_17_20_81
+  CONSUME in__r_9_17_20_81:1, p_+_r_9_17_20->+_r_9_17_20_81:1;
+  PRODUCE out__r_9_17_20_81:1;
+
+TRANSITION +_r_9_17_20_82
+  CONSUME in__r_9_17_20_82:1, p_+_r_9_17_20->+_r_9_17_20_82:1;
+  PRODUCE out__r_9_17_20_82:1;
+
+TRANSITION -_r_1
+  CONSUME in__r_1:1;
+  PRODUCE out__r_1:1, p_-_r_1->-_r:1;
+
+TRANSITION -_r_3
+  CONSUME in__r_3:1;
+  PRODUCE out__r_3:1, p_-_r_3->-_r:1;
+
+TRANSITION -_r_5
+  CONSUME in__r_5:1;
+  PRODUCE out__r_5:1, p_-_r_5->-_r:1, p_-_r_5->-_r_9_18:1;
+
+TRANSITION -_r_6
+  CONSUME in__r_6:1;
+  PRODUCE out__r_6:1, p_-_r_6->-_r:1, p_-_r_6->-_r_9_17_20_82:1;
+
+TRANSITION -_r_7
+  CONSUME in__r_7:1;
+  PRODUCE out__r_7:1, p_-_r_7->-_r:1;
+
+TRANSITION -_r_8
+  CONSUME in__r_8:1;
+  PRODUCE out__r_8:1, p_-_r_8->-_r:1;
+
+TRANSITION -_r_9
+  CONSUME in__r_9:1, p_-_r_9_16->-_r_9:1, p_-_r_9_17->-_r_9:1;
+  PRODUCE out__r_9:1, p_-_r_9->-_r:1, p_-_r_9->-_r_9_17:1, p_-_r_9->-_r_9_18:1;
+
+TRANSITION -_r_9_16
+  CONSUME in__r_9_16:1;
+  PRODUCE out__r_9_16:1, p_-_r_9_16->-_r_9:1;
+
+TRANSITION -_r_9_17
+  CONSUME in__r_9_17:1, p_-_r_9->-_r_9_17:1;
+  PRODUCE out__r_9_17:1, p_-_r_9_17->-_r_9:1, p_-_r_9_17->-_r_9_17_20:1;
+
+TRANSITION -_r_9_17_20
+  CONSUME in__r_9_17_20:1, p_-_r_9_17->-_r_9_17_20:1;
+  PRODUCE out__r_9_17_20:1, p_-_r_9_17_20->-_r_9_17_20_80:1, p_-_r_9_17_20->-_r_9_17_20_81:1, p_-_r_9_17_20->-_r_9_17_20_82:1;
+
+TRANSITION -_r_9_17_20_80
+  CONSUME in__r_9_17_20_80:1, p_-_r_9_17_20->-_r_9_17_20_80:1;
+  PRODUCE out__r_9_17_20_80:1;
+
+TRANSITION -_r_9_17_20_81
+  CONSUME in__r_9_17_20_81:1, p_-_r_9_17_20->-_r_9_17_20_81:1;
+  PRODUCE out__r_9_17_20_81:1;
+
+TRANSITION -_r_9_17_20_82
+  CONSUME in__r_9_17_20_82:1, p_-_r_6->-_r_9_17_20_82:1, p_-_r_9_17_20->-_r_9_17_20_82:1;
+  PRODUCE out__r_9_17_20_82:1;
+
+TRANSITION begin_1
+  CONSUME i_1:1;
+  PRODUCE in__r:1;
+
+TRANSITION begin_2
+  CONSUME o_1:1;
+  PRODUCE in__r_1:1;
+
+TRANSITION begin_3
+  CONSUME o_2:1;
+  PRODUCE in__r_3:1, in__r_5:1, in__r_6:1, in__r_7:1, in__r_8:1, in__r_9:1, in__r_9_16:1, in__r_9_17:1;
+
+TRANSITION begin_4
+  CONSUME o_3:1;
+  PRODUCE in__r_9_17_20:1;
+
+TRANSITION begin_5
+  CONSUME o_4:1;
+  PRODUCE in__r_9_17_20_80:1, in__r_9_17_20_81:1, in__r_9_17_20_82:1;
+
+TRANSITION end_1
+  CONSUME out__r:1;
+  PRODUCE o_1:1;
+
+TRANSITION end_2
+  CONSUME out__r_1:1;
+  PRODUCE o_2:1;
+
+TRANSITION end_3
+  CONSUME out__r_3:1, out__r_5:1, out__r_6:1, out__r_7:1, out__r_8:1, out__r_9:1, out__r_9_16:1, out__r_9_17:1;
+  PRODUCE o_3:1;
+
+TRANSITION end_4
+  CONSUME out__r_9_17_20:1;
+  PRODUCE o_4:1;
+
+TRANSITION end_5
+  CONSUME out__r_9_17_20_80:1, out__r_9_17_20_81:1, out__r_9_17_20_82:1;
+  PRODUCE o_5:1;
+
+
+{ END OF FILE }

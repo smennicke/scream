@@ -1,0 +1,28 @@
+configuration: {
+  verification = "DEADTRANSITION";
+  exploration = "DEPTH_FIRST";
+  reduction = {
+    STUBBORN = true;
+    PREDUCTION = true;
+    SMALLSTATE = true;
+  };
+  parameters = {
+    HASHSIZE = 65536;
+    REPORTFREQUENCY = 100000;
+  };
+};
+not dead: {
+  result = true;
+    state = ( ("o_4", 1), ("p_+temperature->+freeze_point", 1), ("p_+measurements->+wind_speed", 1), ("p_+weather_station->+alarm", 1), ("p_+weather_station->+data_source", 1), ("p_+weather_station->+output_format", 1) );
+  path = ("begin_1", "+weather_station", "end_1", "begin_2", "+measurements", "end_2", "begin_3", "+pressure", "end_3", "begin_4", "+temperature", "end_4");
+};
+statespace: {
+  complete = false;
+  states = ( 
+  );
+};
+statistics: {
+  states = 13;
+  edges = 12;
+  hash_table_entries = 13;
+};

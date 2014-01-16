@@ -1,0 +1,8 @@
+In order to use scream properly, please make sure you have LoLA (utils/) installed or at least compiled in the versions
+ (a) lola-modelchecking and
+ (b) lola-deadtransition.
+Both LoLAs are crucial for scream to work properly. If LoLA is not available by just calling lola-modelchecking or lola-deadtransition from the console, please make sure, both binaries reside in the same directory, e.g., /usr/local/bin. By calling scream with the option --basepath=/usr/local/bin/, scream will look for the LoLA versions under the specified directory.
+
+scream uses the Petri Net API (PNAPI) by the service-technology.org group. Details on the PNAPI may be found on http://service-technology.org/pnapi/
+
+scream reads a reduced form of the SPLOT (http://www.splot-research.org/) format. Please remove all blocks up to <feature_tree> and <constraints>.

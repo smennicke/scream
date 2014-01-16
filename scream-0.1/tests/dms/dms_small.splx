@@ -1,0 +1,22 @@
+<feature_tree>
+:r Document Management System (dms)
+	:g [1,*]
+		: UnicodeText
+		: StandardText
+		: PDF
+	:g [1,1]
+		: MetaDataIndex
+		: GeneralIndex
+	:o Search
+		:g [1,1]
+			: GeneralSearch
+			: MetaDataSearch
+				:o AuthorSearch
+				:m TitleSearch
+				:m ContentSearch
+</feature_tree>
+<constraints>
+cons-1: ~UnicodeText or ~StandardText
+cons-2: ~GeneralSearch or GeneralIndex
+cons-3: ~MetaDataSearch or MetaDataIndex
+</constraints>

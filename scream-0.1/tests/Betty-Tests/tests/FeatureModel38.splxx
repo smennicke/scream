@@ -1,0 +1,17 @@
+<feature_tree>
+r: root (root)
+	:g [1,1]
+		: F1 (F1)
+		: F2 (F2)
+			:o F8 (F8)
+	:g [1,1]
+		: F3 (F3)
+			:m F5 (F5)
+			:o F6 (F6)
+				:o F9 (F9)
+			:o F7 (F7)
+		: F4 (F4)
+</feature_tree>
+<constraints>
+R-8: ~F1 or ~F6
+</constraints>

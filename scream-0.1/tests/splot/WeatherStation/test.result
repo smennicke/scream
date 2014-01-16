@@ -1,0 +1,28 @@
+configuration: {
+  verification = "DEADTRANSITION";
+  exploration = "DEPTH_FIRST";
+  reduction = {
+    STUBBORN = true;
+    PREDUCTION = true;
+    SMALLSTATE = true;
+  };
+  parameters = {
+    HASHSIZE = 65536;
+    REPORTFREQUENCY = 100000;
+  };
+};
+not dead: {
+  result = true;
+    state = ( ("p_+format->+html", 1), ("in_storm_alert", 1), ("p_+language->+german", 1), ("p_-web_server->+file", 1), ("p_+data_source->+demo", 1), ("p_+alarm->+storm_alert", 1), ("p_+output_format->+file", 1), ("p_-demo->+external_services", 1), ("p_+output_format->+web_server", 1), ("p_+format->+plain_text", 1), ("p_-html->+plain_text", 1), ("p_+data_source->+external_services", 1) );
+  path = ("begin_1", "+weather_station", "end_1", "begin_2", "+measurements", "end_2", "begin_3", "+pressure", "end_3", "begin_4", "+temperature", "end_4", "begin_5", "+wind_speed", "end_5", "begin_6", "+data_source", "end_6", "begin_7", "+internet", "end_7", "begin_8", "-demo", "end_8", "begin_9", "-external_services", "end_9", "begin_10", "+output_format", "end_10", "begin_11", "+text", "end_11", "begin_12", "-web_server", "end_12", "begin_13", "-file", "end_13", "begin_14", "+format", "end_14", "begin_15", "+xml", "end_15", "begin_16", "-html", "end_16", "begin_17", "-plain_text", "end_17", "begin_18", "+language", "end_18", "begin_19", "+english", "end_19", "begin_20", "-german", "end_20", "begin_21", "+alarm", "end_21", "begin_22", "+freeze_point", "end_22", "begin_23");
+};
+statespace: {
+  complete = false;
+  states = ( 
+  );
+};
+statistics: {
+  states = 68;
+  edges = 67;
+  hash_table_entries = 68;
+};

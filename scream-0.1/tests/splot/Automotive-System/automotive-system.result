@@ -1,0 +1,28 @@
+configuration: {
+  verification = "DEADTRANSITION";
+  exploration = "DEPTH_FIRST";
+  reduction = {
+    STUBBORN = true;
+    PREDUCTION = true;
+    SMALLSTATE = true;
+  };
+  parameters = {
+    HASHSIZE = 65536;
+    REPORTFREQUENCY = 100000;
+  };
+};
+not dead: {
+  result = true;
+    state = ( ("p_+_r->+_r_42", 1), ("in__r_7_8_24", 1), ("p_+_r_7_8->+_r_7_8_24", 1), ("in__r_7_8_24_25_26", 1), ("p_+_r_2->+_r_2_3_5", 1), ("p_+_r_7->+_r_7_20_21", 1), ("p_+_r_7->+_r_7_20_22", 1), ("p_+_r->+_r_37", 1), ("p_+_r_7_8_23->+_r_7_20_21", 1), ("p_+_r->+_r_33", 1) );
+  path = ("begin_1", "+_r", "end_1", "begin_2", "+_r_2", "end_2", "begin_3", "+_r_2_3_4", "end_3", "begin_4", "-_r_2_3_5", "end_4", "begin_5", "+_r_7", "end_5", "begin_6", "+_r_7_8", "end_6", "begin_7", "+_r_7_8_23", "end_7", "begin_8");
+};
+statespace: {
+  complete = false;
+  states = ( 
+  );
+};
+statistics: {
+  states = 23;
+  edges = 22;
+  hash_table_entries = 23;
+};

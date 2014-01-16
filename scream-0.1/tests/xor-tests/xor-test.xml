@@ -1,0 +1,9 @@
+<feature_tree>
+:r Root (root)
+	:g [1,1]
+		: A (a)
+		: B (b)
+		: C (c)
+</feature_tree>
+<constraints>
+</constraints>

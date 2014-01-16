@@ -1,0 +1,199 @@
+{ Petri net created by SCREAM 1.0 }
+
+PLACE
+  i_1, in_AuthorSearch, in_ContentSearch, in_GeneralIndex, in_GeneralSearch, in_MetaDataIndex, in_MetaDataSearch, in_PDF, in_Search, in_StandardText, in_TitleSearch, in_UnicodeText, in_dms, o_1, o_10, o_11, o_12, o_2, o_3, o_4, o_5, o_6, o_7, o_8, o_9, out_AuthorSearch, out_ContentSearch, out_GeneralIndex, out_GeneralSearch, out_MetaDataIndex, out_MetaDataSearch, out_PDF, out_Search, out_StandardText, out_TitleSearch, out_UnicodeText, out_dms, p_+GeneralIndex->+GeneralSearch, p_+MetaDataIndex->+MetaDataSearch, p_+MetaDataSearch->+AuthorSearch, p_+MetaDataSearch->+ContentSearch, p_+MetaDataSearch->+TitleSearch, p_+Search->+GeneralSearch, p_+dms->+GeneralIndex, p_+dms->+MetaDataIndex, p_+dms->+PDF, p_+dms->+Search, p_+dms->+StandardText, p_+dms->+UnicodeText, p_-GeneralIndex->-dms, p_-MetaDataIndex->+GeneralIndex, p_-MetaDataIndex->-dms, p_-MetaDataSearch->+GeneralSearch, p_-MetaDataSearch->-ContentSearch, p_-MetaDataSearch->-Search, p_-MetaDataSearch->-TitleSearch, p_-PDF->-dms, p_-Search->-dms, p_-StandardText->-dms, p_-UnicodeText->+StandardText, p_-UnicodeText->-dms;
+
+MARKING
+  i_1:1;
+
+
+TRANSITION +AuthorSearch
+  CONSUME in_AuthorSearch:1, p_+MetaDataSearch->+AuthorSearch:1;
+  PRODUCE out_AuthorSearch:1;
+
+TRANSITION +ContentSearch
+  CONSUME in_ContentSearch:1, p_+MetaDataSearch->+ContentSearch:1;
+  PRODUCE out_ContentSearch:1;
+
+TRANSITION +GeneralIndex
+  CONSUME in_GeneralIndex:1, p_+dms->+GeneralIndex:1, p_-MetaDataIndex->+GeneralIndex:1;
+  PRODUCE out_GeneralIndex:1, p_+GeneralIndex->+GeneralSearch:1;
+
+TRANSITION +GeneralSearch
+  CONSUME in_GeneralSearch:1, p_+GeneralIndex->+GeneralSearch:1, p_+Search->+GeneralSearch:1, p_-MetaDataSearch->+GeneralSearch:1;
+  PRODUCE out_GeneralSearch:1;
+
+TRANSITION +MetaDataIndex
+  CONSUME in_MetaDataIndex:1, p_+dms->+MetaDataIndex:1;
+  PRODUCE out_MetaDataIndex:1, p_+MetaDataIndex->+MetaDataSearch:1;
+
+TRANSITION +MetaDataSearch
+  CONSUME in_MetaDataSearch:1, p_+MetaDataIndex->+MetaDataSearch:1;
+  PRODUCE out_MetaDataSearch:1, p_+MetaDataSearch->+AuthorSearch:1, p_+MetaDataSearch->+ContentSearch:1, p_+MetaDataSearch->+TitleSearch:1;
+
+TRANSITION +PDF
+  CONSUME in_PDF:1, p_+dms->+PDF:1;
+  PRODUCE out_PDF:1;
+
+TRANSITION +Search
+  CONSUME in_Search:1, p_+dms->+Search:1;
+  PRODUCE out_Search:1, p_+Search->+GeneralSearch:1;
+
+TRANSITION +StandardText
+  CONSUME in_StandardText:1, p_+dms->+StandardText:1, p_-UnicodeText->+StandardText:1;
+  PRODUCE out_StandardText:1;
+
+TRANSITION +TitleSearch
+  CONSUME in_TitleSearch:1, p_+MetaDataSearch->+TitleSearch:1;
+  PRODUCE out_TitleSearch:1;
+
+TRANSITION +UnicodeText
+  CONSUME in_UnicodeText:1, p_+dms->+UnicodeText:1;
+  PRODUCE out_UnicodeText:1;
+
+TRANSITION +dms
+  CONSUME in_dms:1;
+  PRODUCE out_dms:1, p_+dms->+GeneralIndex:1, p_+dms->+MetaDataIndex:1, p_+dms->+PDF:1, p_+dms->+Search:1, p_+dms->+StandardText:1, p_+dms->+UnicodeText:1;
+
+TRANSITION -AuthorSearch
+  CONSUME in_AuthorSearch:1;
+  PRODUCE out_AuthorSearch:1;
+
+TRANSITION -ContentSearch
+  CONSUME in_ContentSearch:1, p_-MetaDataSearch->-ContentSearch:1;
+  PRODUCE out_ContentSearch:1;
+
+TRANSITION -GeneralIndex
+  CONSUME in_GeneralIndex:1;
+  PRODUCE out_GeneralIndex:1, p_-GeneralIndex->-dms:1;
+
+TRANSITION -GeneralSearch
+  CONSUME in_GeneralSearch:1;
+  PRODUCE out_GeneralSearch:1;
+
+TRANSITION -MetaDataIndex
+  CONSUME in_MetaDataIndex:1;
+  PRODUCE out_MetaDataIndex:1, p_-MetaDataIndex->+GeneralIndex:1, p_-MetaDataIndex->-dms:1;
+
+TRANSITION -MetaDataSearch
+  CONSUME in_MetaDataSearch:1;
+  PRODUCE out_MetaDataSearch:1, p_-MetaDataSearch->+GeneralSearch:1, p_-MetaDataSearch->-ContentSearch:1, p_-MetaDataSearch->-Search:1, p_-MetaDataSearch->-TitleSearch:1;
+
+TRANSITION -PDF
+  CONSUME in_PDF:1;
+  PRODUCE out_PDF:1, p_-PDF->-dms:1;
+
+TRANSITION -Search
+  CONSUME in_Search:1, p_-MetaDataSearch->-Search:1;
+  PRODUCE out_Search:1, p_-Search->-dms:1;
+
+TRANSITION -StandardText
+  CONSUME in_StandardText:1;
+  PRODUCE out_StandardText:1, p_-StandardText->-dms:1;
+
+TRANSITION -TitleSearch
+  CONSUME in_TitleSearch:1, p_-MetaDataSearch->-TitleSearch:1;
+  PRODUCE out_TitleSearch:1;
+
+TRANSITION -UnicodeText
+  CONSUME in_UnicodeText:1;
+  PRODUCE out_UnicodeText:1, p_-UnicodeText->+StandardText:1, p_-UnicodeText->-dms:1;
+
+TRANSITION begin_1
+  CONSUME i_1:1;
+  PRODUCE in_dms:1;
+
+TRANSITION begin_10
+  CONSUME o_9:1;
+  PRODUCE in_AuthorSearch:1;
+
+TRANSITION begin_11
+  CONSUME o_10:1;
+  PRODUCE in_TitleSearch:1;
+
+TRANSITION begin_12
+  CONSUME o_11:1;
+  PRODUCE in_ContentSearch:1;
+
+TRANSITION begin_2
+  CONSUME o_1:1;
+  PRODUCE in_UnicodeText:1;
+
+TRANSITION begin_3
+  CONSUME o_2:1;
+  PRODUCE in_StandardText:1;
+
+TRANSITION begin_4
+  CONSUME o_3:1;
+  PRODUCE in_PDF:1;
+
+TRANSITION begin_5
+  CONSUME o_4:1;
+  PRODUCE in_MetaDataIndex:1;
+
+TRANSITION begin_6
+  CONSUME o_5:1;
+  PRODUCE in_MetaDataSearch:1;
+
+TRANSITION begin_7
+  CONSUME o_6:1;
+  PRODUCE in_Search:1;
+
+TRANSITION begin_8
+  CONSUME o_7:1;
+  PRODUCE in_GeneralIndex:1;
+
+TRANSITION begin_9
+  CONSUME o_8:1;
+  PRODUCE in_GeneralSearch:1;
+
+TRANSITION end_1
+  CONSUME out_dms:1;
+  PRODUCE o_1:1;
+
+TRANSITION end_10
+  CONSUME out_AuthorSearch:1;
+  PRODUCE o_10:1;
+
+TRANSITION end_11
+  CONSUME out_TitleSearch:1;
+  PRODUCE o_11:1;
+
+TRANSITION end_12
+  CONSUME out_ContentSearch:1;
+  PRODUCE o_12:1;
+
+TRANSITION end_2
+  CONSUME out_UnicodeText:1;
+  PRODUCE o_2:1;
+
+TRANSITION end_3
+  CONSUME out_StandardText:1;
+  PRODUCE o_3:1;
+
+TRANSITION end_4
+  CONSUME out_PDF:1;
+  PRODUCE o_4:1;
+
+TRANSITION end_5
+  CONSUME out_MetaDataIndex:1;
+  PRODUCE o_5:1;
+
+TRANSITION end_6
+  CONSUME out_MetaDataSearch:1;
+  PRODUCE o_6:1;
+
+TRANSITION end_7
+  CONSUME out_Search:1;
+  PRODUCE o_7:1;
+
+TRANSITION end_8
+  CONSUME out_GeneralIndex:1;
+  PRODUCE o_8:1;
+
+TRANSITION end_9
+  CONSUME out_GeneralSearch:1;
+  PRODUCE o_9:1;
+
+
+{ END OF FILE }
